@@ -94,4 +94,5 @@ function permalink(showName) {
     url.searchParams.set("q", showName);
     window.history.pushState({}, "", url);
     document.querySelector("#searchBox").value = showName;
+    doSearch();
 }
