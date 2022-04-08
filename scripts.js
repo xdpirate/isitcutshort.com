@@ -61,7 +61,7 @@ function doSearch(event) {
         if(results != "") {
             document.querySelector("#resultsDiv").innerHTML = results;
         } else {
-            document.querySelector("#resultsDiv").innerHTML = `<big>No results found for &quot;${searchTerm}&quot;</big>`;
+            document.querySelector("#resultsDiv").innerHTML = `<big>No results found for &quot;${searchTerm}&quot; &mdash; it either had a normal run, or it's not in the database.</big><br /><br />You can <a href="https://github.com/xdpirate/isitcutshort.com/issues/new?title=Request+show+-+${encodeURIComponent(searchTerm).replace(/%20/, "+")}&body=Please+consider+the+show+${encodeURIComponent(searchTerm).replace(/%20/, "+")}+for+inclusion+on+the+site." href="_blank">request it to be included</a>, or <a href="https://www.imdb.com/find?q=${encodeURIComponent(searchTerm).replace(/%20/, "+")}&s=all">search IMDb</a>!`;
         }
     } else {
         document.querySelector("#resultsDiv").innerHTML = "";    
