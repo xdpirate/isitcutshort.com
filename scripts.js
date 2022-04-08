@@ -42,12 +42,12 @@ function doSearch(event) {
                     let showName = show.match(/^(.+) \([0-9]{4}\)$/)[1];
                     results += `
                         <div class="tvShowDiv${jsonData[show].isCutShort == "1" || jsonData[show].hasCliffhanger == "1" ? " cutShort" : " notCutShort"}">
-                            <b>${show}</b> ${jsonData[show].isCutShort == "1" || jsonData[show].hasCliffhanger == "1" ? `<span title="Cut short!">❌</span>` : `<span title="Not cut short!">✅</span>`}
+                            <b><span class="permalink" title="Permalink" onclick="javascript:permalink('${show}');">${show}</span></b> ${jsonData[show].isCutShort == "1" || jsonData[show].hasCliffhanger == "1" ? `<span title="Cut short!">❌</span>` : `<span title="Not cut short!">✅</span>`}
                             <small>
-                                <sup><a href="https://www.imdb.com/title/tt${jsonData[show].imdbID}/" target="_blank">(IMDb)</a></sup><hr />
+                                <sup><a href="https://www.imdb.com/title/tt${jsonData[show].imdbID}/">(IMDb)</a></sup><hr />
                                 <i>${showName}</i> ${jsonData[show].isCutShort == "1" ? `was <span class="cutShort">cut short</span>. ` : `has <span class="notCutShort">not been cut short</span>. `}
                                 ${jsonData[show].hasCliffhanger == "1" ? `It <span class="cutShort">ended on a cliffhanger</span>.` : `${jsonData[show].hasCliffhanger == "0" ? `It <span class="notCutShort">does not end with a cliffhanger</span>.` : "There is no data available on whether it ended on a cliffhanger."}`}
-                                ${jsonData[show].extraInfo != "" ? `<br /><br />${jsonData[show].extraInfo} <a href="${jsonData[show].extraInfoURL}" target="_blank">(${jsonData[show].extraInfoRef})</a>` : ""}
+                                ${jsonData[show].extraInfo != "" ? `<br /><br />${jsonData[show].extraInfo} <a href="${jsonData[show].extraInfoURL}">(${jsonData[show].extraInfoRef})</a>` : ""}
                             </small>
                         </div>\n
                     `;
@@ -61,7 +61,20 @@ function doSearch(event) {
         if(results != "") {
             document.querySelector("#resultsDiv").innerHTML = results;
         } else {
-            document.querySelector("#resultsDiv").innerHTML = `<big>No results found for &quot;${searchTerm}&quot; &mdash; it either had a normal run, or it's not in the database.</big><br /><br />You can <a href="https://github.com/xdpirate/isitcutshort.com/issues/new?title=Request+show+-+${encodeURIComponent(searchTerm).replace(/%20/, "+")}&body=Please+consider+the+show+${encodeURIComponent(searchTerm).replace(/%20/, "+")}+for+inclusion+on+the+site." href="_blank">request it to be included</a>, or <a href="https://www.imdb.com/find?q=${encodeURIComponent(searchTerm).replace(/%20/, "+")}&s=all">search IMDb</a>!`;
+            let githubIssueLink = 
+                "https://github.com/xdpirate/isitcutshort.com/issues/new?title=" + 
+                `${encodeURIComponent(`Show request: ${searchTerm}`)}`.replace(/%20/g, "+") + 
+                "&body=" +
+                `${encodeURIComponent(`Please consider adding the show "${searchTerm}" to the site!`)}`.replace(/%20/g, "+")
+            ;
+                
+
+            document.querySelector("#resultsDiv").innerHTML = 
+            `<big>No results found for &quot;${searchTerm}&quot; &mdash; it either had a normal run, or it's not in the database.</big><br /><br />
+            
+            You can <a href="${githubIssueLink}">request it to be included</a>, or <a href="https://www.imdb.com/find?q=${encodeURIComponent(searchTerm).replace(/%20/, "+")}&s=all">search IMDb</a>!<br /><br />
+            
+            <small>Please read the <a href="https://github.com/xdpirate/isitcutshort.com#viable-show-inclusions">criteria for inclusion</a> before submitting a request to add a show.</small>`;
         }
     } else {
         document.querySelector("#resultsDiv").innerHTML = "";    
@@ -74,4 +87,11 @@ function doSearch(event) {
         url.searchParams.set("q", document.querySelector("#searchBox").value);
     }
     window.history.pushState({}, "", url);
+}
+
+function permalink(showName) {
+    const url = new URL(window.location);
+    url.searchParams.set("q", showName);
+    window.history.pushState({}, "", url);
+    document.querySelector("#searchBox").value = showName;
 }

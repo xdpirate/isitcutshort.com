@@ -4,7 +4,6 @@ html {
 }
 
 a, a:visited {
-    text-decoration: dotted;
     font-weight: bold;
     color: #333;
 }
@@ -20,6 +19,10 @@ div#wrapper {
 
 div#tagline {
     font-size: 14px;
+}
+
+span.permalink  {
+    cursor: pointer;
 }
 
 span.cutShort {
@@ -63,4 +66,11 @@ div.cutShort {
 div.notCutShort {
     border: 2px solid green;
     background-color: #f4fff5;
+}
+
+@media all and (max-width: 960px) {
+    div#wrapper {
+        width: 98%;
+        margin: auto;
+    }    
 }
