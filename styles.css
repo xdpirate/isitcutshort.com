@@ -1,0 +1,66 @@
+html {
+    background-color: #fcfff4;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a, a:visited {
+    text-decoration: dotted;
+    font-weight: bold;
+    color: #333;
+}
+
+h1 {
+    margin-bottom: 5px;
+}
+
+div#wrapper {
+    width: 50%;
+    margin: auto;
+}
+
+div#tagline {
+    font-size: 14px;
+}
+
+span.cutShort {
+    color: maroon;
+    font-weight: bold;
+}
+
+span.notCutShort {
+    color: green;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    font-size: 24px;
+}
+
+div#tagline {
+    margin-bottom: 10px;
+}
+
+div#searchDiv {
+    margin-bottom: 20px;
+}
+
+div#resultsDiv {
+    margin-bottom: 30px;
+}
+
+div.tvShowDiv {
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+div.cutShort {
+    border: 2px solid maroon;
+    background-color: #fff4f4;
+}
+
+div.notCutShort {
+    border: 2px solid green;
+    background-color: #f4fff5;
+}

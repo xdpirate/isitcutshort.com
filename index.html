@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Is it cut short?</title>
+        <meta charset="UTF-8" />
+        <script src="./scripts.js"></script>
+        <link rel="stylesheet" href="./styles.css" />
+        <link rel="icon" href="./favicon.ico">
+    </head>
+
+    <body>
+        <div id="wrapper">
+            <h1><a href="."><img src="./cutshort.png" width="64" height="64" /></a> Is it cut short?</h1>
+            <div id="tagline">
+                <i>Find out if a TV show was cut short (cancelled) or ended with a cliffhanger, before you decide to invest your time in it</i>
+            </div>
+            <div id="searchDiv">
+                <input type="search" id="searchBox" placeholder="🔍 Search for a TV show" onkeyup="javascript:doSearch(event);"></input>
+            </div>
+    
+            <div id="resultsDiv"></div>
+
+            <div id="footer">
+                <hr />
+                <small>
+                    Found any incorrect/outdated information, want a show to be added, or have any other feedback? <b><a href="mailto:webmaster@isitcutshort.com?subject=Site%20feedback" target="_blank">Let me know!</a></b><br /><br />
+
+                    This site is free and open-source software, licensed under the terms of the <a href="https://www.gnu.org/licenses/gpl-3.0.en.html" target="_blank">GPLv3</a>. The data file containing information about the shows (<a href="./data.json" target="_blank">data.json</a>) is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/2.0/" target="_blank">CC BY-NC-SA 2.0</a>. IsItCutShort.com doesn't collect any of your data, and doesn't place any cookies in your browser. You can verify this by inspecting the source code of the page (Ctrl+U in most browsers). There are currently <b><span id="numShows"></span></b> TV shows in the database.
+                </small>
+            </div>
+        </div>
+    </body>
+</html>
