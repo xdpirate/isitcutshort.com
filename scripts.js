@@ -140,6 +140,18 @@ function changePage(pageName) {
         const url = new URL(window.location);
         url.searchParams.delete("q");
         url.searchParams.set("page", "browse");
+
+        let radioButtons = document.querySelectorAll('input[name="browseMenu"]');
+        for(let i = 0; i < radioButtons.length; i++) {
+            if(radioButtons[i].checked) {
+                if(radioButtons[i].id == "browseRadioSymbols") {
+                    url.searchParams.set("letter", "sym");
+                } else {
+                    url.searchParams.set("letter", radioButtons[i].id.match(/browseRadio(.)/)[1]);
+                }
+            }
+        }
+
         window.history.pushState({}, "", url);
     }
 }
