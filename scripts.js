@@ -35,7 +35,7 @@ window.addEventListener('load', (event) => {
 });
 
 function doSearch(event) {
-    let searchTerm = document.querySelector("#searchBox").value;
+    let searchTerm = document.querySelector("#searchBox").value.trim();
     if(searchTerm) {
         let results = "";
         let i = 0;
