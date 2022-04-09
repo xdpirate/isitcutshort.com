@@ -81,7 +81,12 @@ window.addEventListener('load', (event) => {
             changePage("browse");
             if(params.get("letter")) {
                 changeBrowsePage(params.get("letter"));
-                document.getElementById(`browseRadio${params.get("letter")}`).checked = true;
+                if(params.get("letter") == "sym") {
+                    document.getElementById(`browseRadioSymbols`).checked = true;
+                } else {
+                    document.getElementById(`browseRadio${params.get("letter")}`).checked = true;
+                }
+                
             }
         } else {
             searchBox.focus();
