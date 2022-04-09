@@ -1,10 +1,13 @@
 let jsonData = {};
+let jsonDataTimestamp = "20220409121746";
 let ordered = {};
-let datajsonLastUpdate = "20220409121746";
 
 window.addEventListener('load', (event) => {
-    document.querySelector("#searchBox").disabled = true;
-    fetch(`./data.json?${datajsonLastUpdate}`)
+    let searchBox = document.querySelector("#searchBox");
+    searchBox.disabled = true;
+    searchBox.placeholder = "⏲ Loading...";
+
+    fetch(`./data.json?${jsonDataTimestamp}`)
     .then(response => { return response.json(); })
     .then(data => {
         jsonData = data;
@@ -19,12 +22,13 @@ window.addEventListener('load', (event) => {
             }, {}
         );
 
-        document.querySelector("#searchBox").disabled = false;
-        document.querySelector("#searchBox").focus();
+        searchBox.placeholder = "🔍 Search for a TV show";
+        searchBox.disabled = false;
+        searchBox.focus();
 
         let params = new URLSearchParams(document.location.search);
         if(params.get("q")) {
-            document.querySelector("#searchBox").value = params.get("q");
+            searchBox.value = params.get("q");
             doSearch();
         }
     });
