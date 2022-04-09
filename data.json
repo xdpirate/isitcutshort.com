@@ -313,5 +313,15 @@
         "extraInfoRef": "",
         "extraInfoURL": ""
     }
+    ,
+    "Scrubs (2001)": {
+        "imdbID": "0285403",
+        "isCutShort": 0,
+        "hasCliffhanger": 0,
+        "extraInfo": "Although Scrubs received a total of nine seasons, most fans consider season 8 to be the true ending to the show.  Season 9 takes place at a different location and only three of the seven main characters from the first eight seasons remained as regular main characters.",
+        "extraInfoRef": "Wikipedia",
+        "extraInfoURL": "https://en.wikipedia.org/wiki/Scrubs_(season_9)"
+    }
+
 
 }
