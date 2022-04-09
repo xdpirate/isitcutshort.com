@@ -312,5 +312,51 @@
         "isCutShort": 1,
         "hasCliffhanger": 1
     }
+    ,
+    "Kyle XY (2006)": {
+        "imdbID": "0756509",
+        "isCutShort": 1,
+        "hasCliffhanger": 1,
+        "extraInfo": {
+            "content": "The season three DVD contains a \"wrap-up\" called <i>Kyle XY: Future Revealed</i>, with the writers and actors explaining their plans for future episodes and what would have ultimately happened in the series ending.",
+            "source": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Kyle_XY"
+        }
+    }
+    ,
+    "Joan of Arcadia (2003)": {
+        "imdbID": "0367345",
+        "isCutShort": 1,
+        "hasCliffhanger": 1
+    }
+    ,
+    "The Society (2019)": {
+        "imdbID": "8778064",
+        "isCutShort": 1,
+        "hasCliffhanger": 1
+    }
+    ,
+    "Freaks and Geeks (1999)": {
+        "imdbID": "8778064",
+        "isCutShort": 1,
+        "hasCliffhanger": 1,
+        "extraInfo": {
+            "content": "The creator of the show revealed information on what would have happened after the first season in an interview.",
+            "source": "Vanity Fair",
+            "url": "https://www.vanityfair.com/hollywood/2012/12/paul-feig-season-two-freaks-and-geeks"
+        }
+    }
+    ,
+    "Teenage Bounty Hunters (2020)": {
+        "imdbID": "10584608",
+        "isCutShort": 1,
+        "hasCliffhanger": 1
+    }
+    ,
+    "GLOW (2017)": {
+        "imdbID": "5770786",
+        "isCutShort": 1,
+        "hasCliffhanger": 1
+    }
 
 }
