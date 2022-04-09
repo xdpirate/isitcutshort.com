@@ -52,7 +52,7 @@ window.addEventListener('load', (event) => {
         }
         
         document.getElementById("browseNavSymbols").onclick = function() { 
-            changeBrowsePage("#"); 
+            changeBrowsePage("sym#"); 
         };
         
         for(let i = 0; i < 26; i++) {
@@ -61,10 +61,13 @@ window.addEventListener('load', (event) => {
             };
         }
 
-        changeBrowsePage("A");
-        document.getElementById("browseRadioA").checked = true;
-
         let params = new URLSearchParams(document.location.search);
+
+        if(!params.get("letter")) {
+            changeBrowsePage("A");
+            document.getElementById("browseRadioA").checked = true;
+        }
+        
         if(params.get("q")) {
             searchBox.value = params.get("q");
             searchBox.focus();
@@ -76,6 +79,10 @@ window.addEventListener('load', (event) => {
             changePage("recents");
         } else if(params.get("page") == "browse") {
             changePage("browse");
+            if(params.get("letter")) {
+                changeBrowsePage(params.get("letter"));
+                document.getElementById(`browseRadio${params.get("letter")}`).checked = true;
+            }
         } else {
             searchBox.focus();
         }
@@ -135,7 +142,7 @@ function changeBrowsePage(letter) {
 
     let currentLetterShows = {};
 
-    if(letter == "#") {
+    if(letter == "sym") {
         for(let show in jsonDataOrdered) {
             console.log(show);
 
@@ -157,6 +164,12 @@ function changeBrowsePage(letter) {
         }
     } else {
         document.getElementById("browseDiv").innerHTML = `There are currently no shows in the database that matches these criteria.`;
+    }
+
+    const url = new URL(window.location);
+    if(url.searchParams.get("page") == "browse") {
+        url.searchParams.set("letter", letter);
+        window.history.pushState({}, "", url);
     }
 }
 
