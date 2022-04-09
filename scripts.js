@@ -71,10 +71,13 @@ window.addEventListener('load', (event) => {
             doSearch();
         } else if(params.get("page") == "search") {
             changePage("search");
+            searchBox.focus();
         } else if(params.get("page") == "recents") {
             changePage("recents");
         } else if(params.get("page") == "browse") {
             changePage("browse");
+        } else {
+            searchBox.focus();
         }
     });
 });
