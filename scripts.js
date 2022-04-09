@@ -110,6 +110,7 @@ function changePage(pageName) {
 
         const url = new URL(window.location);
         url.searchParams.delete("page");
+        url.searchParams.delete("letter");
         window.history.pushState({}, "", url);
 
         doSearch();
@@ -124,6 +125,7 @@ function changePage(pageName) {
         
         const url = new URL(window.location);
         url.searchParams.delete("q");
+        url.searchParams.delete("letter");
         url.searchParams.set("page", "recents");
         window.history.pushState({}, "", url);
     } else if(pageName == "browse") {
