@@ -52,7 +52,7 @@ window.addEventListener('load', (event) => {
         }
         
         document.getElementById("browseNavSymbols").onclick = function() { 
-            changeBrowsePage("sym#"); 
+            changeBrowsePage("sym"); 
         };
         
         for(let i = 0; i < 26; i++) {
@@ -67,7 +67,7 @@ window.addEventListener('load', (event) => {
             changeBrowsePage("A");
             document.getElementById("browseRadioA").checked = true;
         }
-        
+
         if(params.get("q")) {
             searchBox.value = params.get("q");
             searchBox.focus();
