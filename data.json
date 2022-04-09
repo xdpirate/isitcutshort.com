@@ -2,324 +2,315 @@
     "The OA (2016)": {
         "imdbID": "4635282",
         "isCutShort": 1,
-        "hasCliffhanger": 1,
-        "extraInfo": "",
-        "extraInfoRef": "",
-        "extraInfoURL": ""
+        "hasCliffhanger": 1
     }
     ,
     "Revolution (2012)": {
         "imdbID": "2070791",
         "isCutShort": 1,
         "hasCliffhanger": 1,
-        "extraInfo": "The story was wrapped up in a four-part comic book series in 2015.",
-        "extraInfoRef": "Wikipedia",
-        "extraInfoURL": "https://en.wikipedia.org/wiki/Revolution_(TV_series)#Digital_comic"
+        "extraInfo": {
+            "content": "The story was wrapped up in a four-part comic book series in 2015.",
+            "source": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Revolution_(TV_series)#Digital_comic"
+        }
     }
     ,
     "My Name is Earl (2005)": {
         "imdbID": "0460091",
         "isCutShort": 1,
         "hasCliffhanger": 1,
-        "extraInfo": "The series storyline is rounded out in the pilot episode of Greg Garcia's next sitcom Raising Hope.",
-        "extraInfoRef": "Wikipedia",
-        "extraInfoURL": "https://en.wikipedia.org/wiki/My_Name_Is_Earl"
+        "extraInfo": {
+            "content": "The series storyline is rounded out in the pilot episode of Greg Garcia's next sitcom Raising Hope.",
+            "source": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/My_Name_Is_Earl"
+        }
     }
     ,
     "Mork & Mindy (1978)": {
         "imdbID": "0077053",
         "isCutShort": 0,
-        "hasCliffhanger": 1,
-        "extraInfo": "",
-        "extraInfoRef": "",
-        "extraInfoURL": ""
+        "hasCliffhanger": 1
     }
     ,
     "Hannibal (2013)": {
         "imdbID": "2243973",
         "isCutShort": 0,
-        "hasCliffhanger": 1,
-        "extraInfo": "",
-        "extraInfoRef": "",
-        "extraInfoURL": ""
+        "hasCliffhanger": 1
     }
     ,
     "Lois & Clark: The New Adventures of Superman (1993)": {
         "imdbID": "0106057",
         "isCutShort": 1,
-        "hasCliffhanger": 1,
-        "extraInfo": "",
-        "extraInfoRef": "",
-        "extraInfoURL": ""
+        "hasCliffhanger": 1
     }
     ,
     "Star (2016)": {
         "imdbID": "4941240",
         "isCutShort": 1,
-        "hasCliffhanger": 1,
-        "extraInfo": "",
-        "extraInfoRef": "",
-        "extraInfoURL": ""
+        "hasCliffhanger": 1
     }
     ,
     "Moesha (1996)": {
         "imdbID": "0115275",
         "isCutShort": 1,
-        "hasCliffhanger": 1,
-        "extraInfo": "",
-        "extraInfoRef": "",
-        "extraInfoURL": ""
+        "hasCliffhanger": 1
     }
     ,
     "Futurama (1999)": {
         "imdbID": "0149460",
         "isCutShort": 0,
         "hasCliffhanger": 0,
-        "extraInfo": "On February 9, 2022, Hulu revived the series with a 20-episode order set to premiere in 2023.",
-        "extraInfoRef": "Wikipedia",
-        "extraInfoURL": "https://en.wikipedia.org/wiki/Futurama"
+        "extraInfo": {
+            "content": "On February 9, 2022, Hulu revived the series with a 20-episode order set to premiere in 2023.",
+            "source": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Futurama"
+        }
     }
     ,
     "Pushing Daisies (2007)": {
         "imdbID": "0925266",
         "isCutShort": 1,
-        "hasCliffhanger": 1,
-        "extraInfo": "",
-        "extraInfoRef": "",
-        "extraInfoURL": ""
+        "hasCliffhanger": 1
     }
     ,
     "Pitch (2016)": {
         "imdbID": "5500158",
         "isCutShort": 1,
-        "hasCliffhanger": 1,
-        "extraInfo": "",
-        "extraInfoRef": "",
-        "extraInfoURL": ""
+        "hasCliffhanger": 1
     }
     ,
     "The Last Man on Earth (2015)": {
         "imdbID": "3230454",
         "isCutShort": 1,
         "hasCliffhanger": 1,
-        "extraInfo": "The creator revealed the planned ending for the show after it was cancelled.",
-        "extraInfoRef": "IndieWire",
-        "extraInfoURL": "https://www.indiewire.com/2018/07/the-last-man-on-earth-will-forte-planned-ending-1201989300/"
+        "extraInfo": {
+            "content": "The creator revealed the planned ending for the show after it was cancelled.",
+            "source": "IndieWire",
+            "url": "https://www.indiewire.com/2018/07/the-last-man-on-earth-will-forte-planned-ending-1201989300/"
+        }
     }
     ,
     "The 4400 (2004)": {
         "imdbID": "0389564",
         "isCutShort": 1,
         "hasCliffhanger": 1,
-        "extraInfo": "The show was rebooted in 2021 under the name \"4400\".",
-        "extraInfoRef": "IMDb",
-        "extraInfoURL": "https://www.imdb.com/title/tt9319770/"
+        "extraInfo": {
+            "content": "The show was rebooted in 2021 under the name \"4400\".",
+            "source": "IMDb",
+            "url": "https://www.imdb.com/title/tt9319770/"
+        }
     }
     ,
     "The Expanse (2015)": {
         "imdbID": "3230854",
         "isCutShort": 0,
         "hasCliffhanger": 0,
-        "extraInfo": "The show was originally cancelled after the third season, but was successfully revived with the help of a petition gathering over 100,000 signatures.",
-        "extraInfoRef": "Wikipedia",
-        "extraInfoURL": "https://en.wikipedia.org/wiki/The_Expanse_(TV_series)#Cancellation_and_renewals"
+        "extraInfo": {
+            "content": "The show was originally cancelled after the third season, but was successfully revived with the help of a petition gathering over 100,000 signatures.",
+            "source": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/The_Expanse_(TV_series)#Cancellation_and_renewals"
+        }
     }
     ,
     "Seinfeld (1989)": {
         "imdbID": "0098904",
         "isCutShort": 0,
         "hasCliffhanger": 0,
-        "extraInfo": "The finale was very poorly recieved at the time it was aired, which is a running joke throughout <i>Curb Your Enthusiasm</i>. A fictional reunion of <i>Seinfeld</i> takes place inside of <i>Curb Your Enthusiasm</i> in season 7, episode 10.",
-        "extraInfoRef": "Wikipedia",
-        "extraInfoURL": "https://en.wikipedia.org/wiki/Seinfeld_(Curb_Your_Enthusiasm)"
+        "extraInfo": {
+            "content": "The finale was very poorly recieved at the time it was aired, which is a running joke throughout <i>Curb Your Enthusiasm</i>. A fictional reunion of <i>Seinfeld</i> takes place inside of <i>Curb Your Enthusiasm</i> in season 7, episode 10.",
+            "source": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Seinfeld_(Curb_Your_Enthusiasm)"
+        }
     }
     ,  
     "Chuck (2007)": {
         "imdbID": "0934814",
         "isCutShort": 0,
-        "hasCliffhanger": 1,
-        "extraInfo": "",
-        "extraInfoRef": "",
-        "extraInfoURL": ""
+        "hasCliffhanger": 1
     }
     ,  
     "The Event (2010)": {
         "imdbID": "1582459",
         "isCutShort": 1,
-        "hasCliffhanger": 1,
-        "extraInfo": "",
-        "extraInfoRef": "",
-        "extraInfoURL": ""
+        "hasCliffhanger": 1
     }
     ,  
     "Flashforward (2009)": {
         "imdbID": "1441135",
         "isCutShort": 1,
-        "hasCliffhanger": 1,
-        "extraInfo": "",
-        "extraInfoRef": "",
-        "extraInfoURL": ""
+        "hasCliffhanger": 1
     }
     ,  
     "Alphas (2011)": {
         "imdbID": "1183865",
         "isCutShort": 1,
-        "hasCliffhanger": 1,
-        "extraInfo": "",
-        "extraInfoRef": "",
-        "extraInfoURL": ""
+        "hasCliffhanger": 1
     }
     ,  
     "Southland (2009)": {
         "imdbID": "1299368",
         "isCutShort": 1,
-        "hasCliffhanger": 1,
-        "extraInfo": "",
-        "extraInfoRef": "",
-        "extraInfoURL": ""
+        "hasCliffhanger": 1
     }
     ,  
     "Quantum Leap (1989)": {
         "imdbID": "0096684",
         "isCutShort": 1,
         "hasCliffhanger": 1,
-        "extraInfo": "A few years after the airing of the finale, a script for an alternate ending was leaked on the internet.",
-        "extraInfoRef": "Wikipedia",
-        "extraInfoURL": "https://en.wikipedia.org/wiki/Quantum_Leap#Final_episode"
+        "extraInfo": {
+            "content": "A few years after the airing of the finale, a script for an alternate ending was leaked on the internet.",
+            "source": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Quantum_Leap#Final_episode"
+        }
     }
     ,  
     "Terminator: The Sarah Connor Chronicles (2008)": {
         "imdbID": "0851851",
         "isCutShort": 1,
-        "hasCliffhanger": 1,
-        "extraInfo": "",
-        "extraInfoRef": "",
-        "extraInfoURL": ""
+        "hasCliffhanger": 1
     }
     ,
     "My So-Called Life (1994)": {
         "imdbID": "0108872",
         "isCutShort": 1,
-        "hasCliffhanger": 1,
-        "extraInfo": "",
-        "extraInfoRef": "",
-        "extraInfoURL": ""
+        "hasCliffhanger": 1
     }
     ,
     "Angel (1999)": {
         "imdbID": "0162065",
         "isCutShort": 1,
-        "hasCliffhanger": 1,
-        "extraInfo": "",
-        "extraInfoRef": "",
-        "extraInfoURL": ""
+        "hasCliffhanger": 1
     }
     ,
     "The Sopranos (1999)": {
         "imdbID": "0141842",
         "isCutShort": 0,
-        "hasCliffhanger": 1,
-        "extraInfo": "",
-        "extraInfoRef": "",
-        "extraInfoURL": ""
+        "hasCliffhanger": 1
     }
     ,
     "Reaper (2007)": {
         "imdbID": "0955322",
         "isCutShort": 1,
-        "hasCliffhanger": 1,
-        "extraInfo": "",
-        "extraInfoRef": "",
-        "extraInfoURL": ""
+        "hasCliffhanger": 1
     }
     ,
     "Deadwood (2004)": {
         "imdbID": "0348914",
         "isCutShort": 0,
         "hasCliffhanger": 1,
-        "extraInfo": "The show itself ends on a cliffhanger, but is followed by a movie.",
-        "extraInfoRef": "Wikipedia",
-        "extraInfoURL": "https://en.wikipedia.org/wiki/Deadwood_(TV_series)#Film_continuation"
+        "extraInfo": {
+            "content": "The show itself ends on a cliffhanger, but is followed by a movie.",
+            "source": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Deadwood_(TV_series)#Film_continuation"
+        }
     }
     ,
     "ALF (1986)": {
         "imdbID": "0090390",
         "isCutShort": 0,
         "hasCliffhanger": 1,
-        "extraInfo": "The show itself ends on a cliffhanger, but is followed by a movie.",
-        "extraInfoRef": "Wikipedia",
-        "extraInfoURL": "https://en.wikipedia.org/wiki/ALF_(TV_series)"
+        "extraInfo": {
+            "content": "The show itself ends on a cliffhanger, but is followed by a movie.",
+            "source": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/ALF_(TV_series)"
+        }
     }
     ,
     "Invasion (2005)": {
         "imdbID": "0460651",
         "isCutShort": 1,
-        "hasCliffhanger": 1,
-        "extraInfo": "",
-        "extraInfoRef": "",
-        "extraInfoURL": ""
+        "hasCliffhanger": 1
     }
     ,
     "The Family (2016)": {
         "imdbID": "4428038",
         "isCutShort": 1,
-        "hasCliffhanger": 1,
-        "extraInfo": "",
-        "extraInfoRef": "",
-        "extraInfoURL": ""
+        "hasCliffhanger": 1
     }
     ,
     "No Tomorrow (2016)": {
         "imdbID": "5595688",
         "isCutShort": 1,
         "hasCliffhanger": 1,
-        "extraInfo": "The network released an epilogue to the series to provide closure after its cancellation.",
-        "extraInfoRef": "Wikipedia",
-        "extraInfoURL": "https://en.wikipedia.org/wiki/No_Tomorrow_(TV_series)#Episodes"
+        "extraInfo": {
+            "content": "The network released an epilogue to the series to provide closure after its cancellation.",
+            "source": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/No_Tomorrow_(TV_series)#Episodes"
+        }
     }
     ,
     "Bored to Death (2009)": {
         "imdbID": "1255913",
         "isCutShort": 1,
         "hasCliffhanger": 1,
-        "extraInfo": "A movie was planned, but was ultimately cancelled. In an interview in April 2018 the creator said that he was considering rebooting the series as a book.",
-        "extraInfoRef": "Wikipedia",
-        "extraInfoURL": "https://en.wikipedia.org/wiki/Bored_to_Death#Potential_movie"
+        "extraInfo": {
+            "content": "A movie was planned, but was ultimately cancelled. In an interview in April 2018 the creator said that he was considering rebooting the series as a book.",
+            "source": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Bored_to_Death#Potential_movie"
+        }
     }
     ,
     "Soap (1977)": {
         "imdbID": "0075584",
         "isCutShort": 1,
         "hasCliffhanger": 1,
-        "extraInfo": "Some extra detail is given in an episode of the show \"Benson\".",
-        "extraInfoRef": "Wikipedia",
-        "extraInfoURL": "https://en.wikipedia.org/wiki/Soap_(TV_series)#Later_seasons_and_cancellation"
+        "extraInfo": {
+            "content": "Some extra detail is given in an episode of the show \"Benson\".",
+            "source": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Soap_(TV_series)#Later_seasons_and_cancellation"
+        }
     }
     ,
     "Dallas (1978)": {
         "imdbID": "0077000",
         "isCutShort": 0,
         "hasCliffhanger": 1,
-        "extraInfo": "The cliffhanger of the original show is resolved in a follow-up movie. There is also a three-season continuation, which premiered in 2012.",
-        "extraInfoRef": "Wikipedia",
-        "extraInfoURL": "https://en.wikipedia.org/wiki/Dallas_(1978_TV_series)"
+        "extraInfo": {
+            "content": "The cliffhanger of the original show is resolved in a follow-up movie. There is also a three-season continuation, which    premiered in 2012.",
+            "source": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Dallas_(1978_TV_series)"
+        }
     }
     ,
     "StartUp (2016)": {
         "imdbID": "5028002",
         "isCutShort": 0,
-        "hasCliffhanger": 1,
-        "extraInfo": "",
-        "extraInfoRef": "",
-        "extraInfoURL": ""
+        "hasCliffhanger": 1
     }
     ,
     "Scrubs (2001)": {
         "imdbID": "0285403",
         "isCutShort": 0,
         "hasCliffhanger": 0,
-        "extraInfo": "Although Scrubs received a total of nine seasons, most fans consider season 8 to be the true ending to the show.  Season 9 takes place at a different location and only three of the seven main characters from the first eight seasons remained as regular main characters.",
-        "extraInfoRef": "Wikipedia",
-        "extraInfoURL": "https://en.wikipedia.org/wiki/Scrubs_(season_9)"
+        "extraInfo": {
+            "content": "Although <i>Scrubs</i> received a total of nine seasons, most fans consider season 8 to be the true ending to the show.  Season 9 takes place at a different location and only three of the seven main characters from the first eight seasons remained as regular main characters.",
+            "source": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Scrubs_(season_9)"
+        }
     }
+    ,
+    "I Am Not Okay with This (2020)": {
+        "imdbID": "9446688",
+        "isCutShort": 1,
+        "hasCliffhanger": 1
+    }
+    ,
+    "Heroes (2006)": {
+        "imdbID": "0813715",
+        "isCutShort": 1,
+        "hasCliffhanger": 1,
+        "extraInfo": {
+            "content": "The show has a spinoff/sequel miniseries called <i>Heroes Reborn</i>. It does not resolve the cliffhanger ending to <i>Heroes</i>, however.",
+            "source": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Heroes_Reborn_(miniseries)"
+        }
+    }
+    ,
+    "Finding Carter (2014)": {
+        "imdbID": "3186138",
+        "isCutShort": 1,
+        "hasCliffhanger": 1
+    }
+
 }

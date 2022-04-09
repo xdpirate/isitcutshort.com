@@ -1,6 +1,6 @@
 let jsonData = {};
-let jsonDataTimestamp = "20220409121746";
-let ordered = {};
+let jsonDataTimestamp = "20220409125637";
+let jsonDataOrdered = {};
 
 window.addEventListener('load', (event) => {
     let searchBox = document.querySelector("#searchBox");
@@ -15,7 +15,7 @@ window.addEventListener('load', (event) => {
         document.querySelector("span#numShows").innerHTML = Object.keys(jsonData).length;
 
         // Because FUCK trying to keep data.json sorted manually
-        ordered = Object.keys(jsonData).sort().reduce(
+        jsonDataOrdered = Object.keys(jsonData).sort().reduce(
             (obj, key) => { 
               obj[key] = jsonData[key]; 
               return obj;
@@ -40,7 +40,7 @@ function doSearch(event) {
         let results = "";
         let i = 0;
 
-        for(let show in ordered) {
+        for(let show in jsonDataOrdered) {
             if(i < 5) {
                 if(show.toLowerCase().includes(searchTerm.toLowerCase())) {
                     let showName = show.match(/^(.+) \([0-9]{4}\)$/)[1];
@@ -51,7 +51,7 @@ function doSearch(event) {
                                 <sup><a href="https://www.imdb.com/title/tt${jsonData[show].imdbID}/">(IMDb)</a></sup><hr />
                                 <i>${showName}</i> ${jsonData[show].isCutShort == "1" ? `was <span class="cutShort">cut short</span>. ` : `has <span class="notCutShort">not been cut short</span>. `}
                                 ${jsonData[show].hasCliffhanger == "1" ? `It <span class="cutShort">ended on a cliffhanger</span>.` : `${jsonData[show].hasCliffhanger == "0" ? `It <span class="notCutShort">does not end with a cliffhanger</span>.` : "There is no data available on whether it ended on a cliffhanger."}`}
-                                ${jsonData[show].extraInfo != "" ? `<br /><br />${jsonData[show].extraInfo} <a href="${jsonData[show].extraInfoURL}">(${jsonData[show].extraInfoRef})</a>` : ""}
+                                ${jsonData[show].extraInfo ? `<br /><br />${jsonData[show].extraInfo.content} <a href="${jsonData[show].extraInfo.url}">(${jsonData[show].extraInfo.source})</a>` : ""}
                             </small>
                         </div>\n
                     `;
