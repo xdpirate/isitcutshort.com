@@ -4,7 +4,6 @@
     <head>
         <title>Is it cut short?</title>
         <meta charset="UTF-8" />
-        <script src="./scripts.js"></script>
         <link rel="stylesheet" href="./styles.css" />
         <link rel="icon" href="./favicon.ico">
         <base target="_blank">
@@ -16,11 +15,29 @@
             <div id="tagline">
                 <i>Find out if a TV show was cut short (cancelled) or ended with a cliffhanger, before you decide to invest your time in it</i>
             </div>
-            <div id="searchDiv">
-                <input type="search" id="searchBox" placeholder="🔍 Search for a TV show" onkeyup="javascript:doSearch(event);"></input>
+
+            <div id="navigationWrapper">
+                <span id="searchMenuChoice" class="menuChoice">Search</span>
+                <span id="recentsMenuChoice" class="menuChoice">Recently added</span> 
+                <span id="browseMenuChoice" class="menuChoice">Browse</span>
             </div>
-    
-            <div id="resultsDiv"></div>
+
+            <div id="searchWrapper">
+                <div id="searchDiv">
+                    <input type="search" id="searchBox" placeholder="🔍 Search for a TV show" onkeyup="javascript:doSearch(event);"></input>
+                </div>
+        
+                <div id="resultsDiv"></div>
+            </div>
+
+            <div id="recentsWrapper">
+                <div id="recentsDiv"></div>
+            </div>
+            
+            <div id="browseWrapper">
+                <div id="browseNav"></div>
+                <div id="browseDiv"></div>
+            </div>
 
             <div id="footer">
                 <hr />
@@ -35,5 +52,7 @@
                 </small>
             </div>
         </div>
+
+        <script src="./scripts.js"></script>
     </body>
 </html>

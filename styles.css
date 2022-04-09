@@ -3,13 +3,34 @@ html {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-a, a:visited {
+a, a:visited, .menuChoice {
     font-weight: bold;
     color: #333;
 }
 
+input[type="radio"][name="browseMenu"] {
+    display: none;
+}
+
+input[type="radio"][name="browseMenu"]:checked + label.menuChoice {
+    text-decoration: underline;
+}
+
+.menuChoice {
+    margin-right: 6px;
+    user-select: none;
+}
+
+span#searchMenuChoice {
+    text-decoration: underline;
+}
+
 h1 {
     margin-bottom: 5px;
+}
+
+div#recentsWrapper, div#browseWrapper {
+    display: none;
 }
 
 div#wrapper {
@@ -21,7 +42,7 @@ div#tagline {
     font-size: 14px;
 }
 
-span.permalink  {
+span.permalink, .menuChoice {
     cursor: pointer;
 }
 
@@ -40,11 +61,11 @@ input {
     font-size: 24px;
 }
 
-div#tagline {
+div#tagline, div#navigationWrapper {
     margin-bottom: 10px;
 }
 
-div#searchDiv {
+div#searchDiv, div#browseNav, div#browseDiv {
     margin-bottom: 20px;
 }
 
