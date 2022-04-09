@@ -24,6 +24,7 @@ window.addEventListener('load', (event) => {
 
         searchBox.placeholder = "🔍 Search for a TV show";
         searchBox.disabled = false;
+        searchBox.onsearch = function() { doSearch(); };
         
         let recentsDiv = document.getElementById("recentsDiv");
         recentsDiv.innerHTML = `<b>Most recently added TV shows:</b><br /><br />`;
