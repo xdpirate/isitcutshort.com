@@ -1,10 +1,10 @@
 let jsonData = {};
 let ordered = {};
-let lastUpdated = "2022-04-08";
+let datajsonLastUpdate = "20220409121746";
 
 window.addEventListener('load', (event) => {
     document.querySelector("#searchBox").disabled = true;
-    fetch("./data.json")
+    fetch(`./data.json?${datajsonLastUpdate}`)
     .then(response => { return response.json(); })
     .then(data => {
         jsonData = data;
