@@ -86,7 +86,6 @@ window.addEventListener('load', (event) => {
                 } else {
                     document.getElementById(`browseRadio${params.get("letter")}`).checked = true;
                 }
-                
             }
         } else {
             searchBox.focus();
@@ -149,6 +148,7 @@ function changePage(pageName) {
                 } else {
                     url.searchParams.set("letter", radioButtons[i].id.match(/browseRadio(.)/)[1]);
                 }
+                break; // Only one radio button can be checked at a time so stop the loop
             }
         }
 
@@ -163,8 +163,6 @@ function changeBrowsePage(letter) {
 
     if(letter == "sym") {
         for(let show in jsonDataOrdered) {
-            console.log(show);
-
             if(new RegExp(/^[^A-Za-z\n]/).test(show)) {
                 currentLetterShows[show] = jsonDataOrdered[show];
             }
