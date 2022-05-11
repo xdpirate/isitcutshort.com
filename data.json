@@ -575,5 +575,11 @@
         "isCutShort": 1,
         "hasCliffhanger": 1
     }
-
+    ,
+    "Better Off Ted (2009)": {
+        "imdbID": "1235547",
+        "isCutShort": 1,
+        "hasCliffhanger": 0
+    }
+    
 }
