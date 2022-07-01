@@ -581,5 +581,11 @@
         "isCutShort": 1,
         "hasCliffhanger": 0
     }
+    ,
+    "The Punisher (2017)": {
+        "imdbID": "5675620",
+        "isCutShort": 1,
+        "hasCliffhanger": 1
+    }
     
 }
