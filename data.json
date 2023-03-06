@@ -620,5 +620,16 @@
             "url": "https://en.wikipedia.org/wiki/Inside_Job_(2021_TV_series)"
 
         }
+    },
+    "The Venture Bros. (2003)": {
+        "imdbID": "0417373",
+        "isCutShort": 1,
+        "hasCliffhanger": 1,
+        "extraInfo": {
+            "content": "On May 12, 2021, it was announced that a direct-to-video film is in production from Adult Swim, which will conclude the story from the series.",
+            "source": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/The_Venture_Bros.#Cancellation"
+
+        }
     }
 }
