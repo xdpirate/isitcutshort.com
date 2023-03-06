@@ -777,4 +777,15 @@
         "isCutShort": 1,
         "hasCliffhanger": 1
     }
+    ,
+    "Prison Break (2005)": {
+        "imdbID": "0455275",
+        "isCutShort": 1,
+        "hasCliffhanger": 0,
+        "extraInfo": {
+            "content": "A fifth \"revival\" season premiered on April 4, 2017. In January 2018, Fox confirmed that season 6 was in early development; however, in August 2019, Fox announced that it had no current plans to revive Prison Break.",
+            "source": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Prison_Break"
+        }
+    }
 }
