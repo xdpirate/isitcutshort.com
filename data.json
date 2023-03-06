@@ -729,4 +729,16 @@
         "isCutShort": 1,
         "hasCliffhanger": 1
     }
+    ,
+    "Counterpart (2017)": {
+        "imdbID": "4643084",
+        "isCutShort": 1,
+        "hasCliffhanger": 0
+    }
+    ,
+    "Mindhunter (2017)": {
+        "imdbID": "5290382",
+        "isCutShort": 1,
+        "hasCliffhanger": 0
+    }
 }
