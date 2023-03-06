@@ -853,4 +853,10 @@
             "url": "https://en.wikipedia.org/wiki/Final_Space"
         }
     }
+    ,
+    "The Booth at the End (2011)": {
+        "imdbID": "1554369",
+        "isCutShort": 1,
+        "hasCliffhanger": 1
+    }
 }
