@@ -683,4 +683,10 @@
             "url": "https://en.wikipedia.org/wiki/Timeless_(TV_series)"
         }
     }
+    ,
+    "Merlin (2008)": {
+        "imdbID": "1199099",
+        "isCutShort": 0,
+        "hasCliffhanger": 1
+    }
 }
