@@ -395,7 +395,12 @@
     "Manifest (2018)": {
         "imdbID": "8421350",
         "isCutShort": 1,
-        "hasCliffhanger": 1
+        "hasCliffhanger": 0,
+        "extraInfo": {
+            "content": "In June 2021, the series was canceled by NBC after three seasons. The series was added to Netflix shortly before it was canceled and immediately topped the viewing charts, persuading Netflix to renew Manifest for a fourth and final season consisting of twenty episodes, with part one premiering on November 4, 2022.",
+            "source": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Manifest_(TV_series)#Cancellation_and_revival"
+        }
     }
     ,
     "Prodigal Son (2019)": {
