@@ -609,5 +609,16 @@
             "url": "https://en.wikipedia.org/wiki/Firefly_(TV_series)"
 
         }
+    },
+    "Inside Job (2021)": {
+        "imdbID": "10231312",
+        "isCutShort": 1,
+        "hasCliffhanger": 1,
+        "extraInfo": {
+            "content": "Netflix renewed Inside Job for a second season in June 2022; however, Takeuchi announced in January 2023 that Netflix had cancelled the series, including the second season. There is an active <a href=\"https://www.change.org/p/save-inside-job-475c1e2a-0b23-4de2-a8af-b796531ebf43\">petition</a> to save the show.",
+            "source": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Inside_Job_(2021_TV_series)"
+
+        }
     }
 }
