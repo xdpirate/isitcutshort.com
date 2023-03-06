@@ -118,7 +118,7 @@
         "isCutShort": 0,
         "hasCliffhanger": 0,
         "extraInfo": {
-            "content": "The finale was very poorly recieved at the time it was aired, which is a running joke throughout <i>Curb Your Enthusiasm</i>. A fictional reunion of <i>Seinfeld</i> takes place inside of <i>Curb Your Enthusiasm</i> in season 7, episode 10.",
+            "content": "The finale was very poorly received at the time it was aired, which is a running joke throughout <i>Curb Your Enthusiasm</i>. A fictional reunion of <i>Seinfeld</i> takes place inside of <i>Curb Your Enthusiasm</i> in season 7, episode 10.",
             "source": "Wikipedia",
             "url": "https://en.wikipedia.org/wiki/Seinfeld_(Curb_Your_Enthusiasm)"
         }
@@ -811,5 +811,17 @@
         "imdbID": "8880894",
         "isCutShort": 0,
         "hasCliffhanger": 1
+    }
+    ,
+    "Knight Rider (1982)": {
+        "imdbID": "0083437",
+        "isCutShort": 1,
+        "hasCliffhanger": 0
+    }
+    ,
+    "Star Trek: Enterprise": {
+        "imdbID": "0244365",
+        "isCutShort": 1,
+        "hasCliffhanger": 0
     }
 }
