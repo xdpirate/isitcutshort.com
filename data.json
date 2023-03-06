@@ -598,5 +598,16 @@
             "url": "https://arstechnica.com/gadgets/2022/11/hbo-cancels-westworld-before-what-was-to-be-its-final-season/"
 
         }
+    },
+    "Firefly (2002)": {
+        "imdbID": "0303461",
+        "isCutShort": 1,
+        "hasCliffhanger": 0,
+        "extraInfo": {
+            "content": "Firefly was cancelled after 11 of 14 produced episodes were aired, but the post-airing success of the show led writer and director Whedon and Universal Pictures to produce Serenity, a 2005 film which continues the story from the series.",
+            "source": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Firefly_(TV_series)"
+
+        }
     }
 }
