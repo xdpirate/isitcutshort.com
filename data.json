@@ -786,6 +786,12 @@
             "content": "A fifth \"revival\" season premiered on April 4, 2017. In January 2018, Fox confirmed that season 6 was in early development; however, in August 2019, Fox announced that it had no current plans to revive Prison Break.",
             "source": "Wikipedia",
             "url": "https://en.wikipedia.org/wiki/Prison_Break"
+    }
+    ,
+    "Nurse Jackie (2009)": {
+        "imdbID": "1190689",
+        "isCutShort": 0,
+        "hasCliffhanger": 1
         }
     }
 }
