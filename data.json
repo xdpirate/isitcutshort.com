@@ -180,7 +180,12 @@
     "Angel (1999)": {
         "imdbID": "0162065",
         "isCutShort": 1,
-        "hasCliffhanger": 1
+        "hasCliffhanger": 1,
+        "extraInfo": {
+            "content": "Although fans have often considered the ending to be something of a cliffhanger, creator Joss Whedon says that isn't the case.",
+            "source": "CBR",
+            "url": "https://www.cbr.com/angel-final-episode-not-cliffhanger-whedon/"
+        }
     }
     ,
     "The Sopranos (1999)": {
@@ -598,7 +603,8 @@
             "url": "https://arstechnica.com/gadgets/2022/11/hbo-cancels-westworld-before-what-was-to-be-its-final-season/"
 
         }
-    },
+    }
+    ,
     "Firefly (2002)": {
         "imdbID": "0303461",
         "isCutShort": 1,
@@ -609,7 +615,8 @@
             "url": "https://en.wikipedia.org/wiki/Firefly_(TV_series)"
 
         }
-    },
+    }
+    ,
     "Inside Job (2021)": {
         "imdbID": "10231312",
         "isCutShort": 1,
@@ -620,17 +627,20 @@
             "url": "https://en.wikipedia.org/wiki/Inside_Job_(2021_TV_series)"
 
         }
-    },
+    }
+    ,
     "Exosquad (1993)": {
         "imdbID": "0106842",
         "isCutShort": 1,
         "hasCliffhanger": 1
-    },
+    }
+    ,
     "Surface (2005)": {
         "imdbID": "0452718",
         "isCutShort": 1,
         "hasCliffhanger": 1
-    },
+    }
+    ,
     "Stargate Universe (2009)": {
         "imdbID": "1286039",
         "isCutShort": 1,
