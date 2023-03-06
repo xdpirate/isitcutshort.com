@@ -707,4 +707,21 @@
         "isCutShort": 1,
         "hasCliffhanger": 1
     }
+    ,
+    "Ray Donovan (2013)": {
+        "imdbID": "2249007",
+        "isCutShort": 1,
+        "hasCliffhanger": 0,
+        "extraInfo": {
+            "content": "In February 2020, the series was cancelled after seven seasons. The show's storyline concluded with the feature-length Ray Donovan: The Movie, which premiered on January 14, 2022, on Showtime.",
+            "source": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Ray_Donovan"
+        }
+    }
+    ,
+    "Santa Clarita Diet (2017)": {
+        "imdbID": "5580540",
+        "isCutShort": 1,
+        "hasCliffhanger": 1
+    }
 }
