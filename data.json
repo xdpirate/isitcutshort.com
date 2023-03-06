@@ -788,4 +788,10 @@
             "url": "https://en.wikipedia.org/wiki/Prison_Break"
         }
     }
+    ,
+    "Nurse Jackie (2009): {
+        "imdbID": "1190689",
+        "isCutShort": 0,
+        "hasCliffhanger": 1
+    }
 }
