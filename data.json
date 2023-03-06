@@ -842,4 +842,15 @@
         "isCutShort": 1,
         "hasCliffhanger": 0
     }
+    ,
+    "Final Space (2018)": {
+        "imdbID": "2654580",
+        "isCutShort": 1,
+        "hasCliffhanger": 1,
+        "extraInfo": {
+            "content": "Adult Swim cancelled the series after three seasons due to the proposed merger of WarnerMedia and Discovery. In September 2022, creator Olan Rogers claimed on Twitter that the series would be written off as a loss for tax purposes by Warner Bros.",
+            "source": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Final_Space"
+        }
+    }
 }
