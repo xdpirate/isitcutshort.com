@@ -649,4 +649,38 @@
         "isCutShort": 1,
         "hasCliffhanger": 1
     }
+    ,
+    "Humans (2015)": {
+        "imdbID": "4122068",
+        "isCutShort": 1,
+        "hasCliffhanger": 1
+    }
+    ,
+    "Utopia (2013)": {
+        "imdbID": "2384811",
+        "isCutShort": 1,
+        "hasCliffhanger": 1
+    }
+    ,
+    "Timeless (2016)": {
+        "imdbID": "2384811",
+        "isCutShort": 1,
+        "hasCliffhanger": 0,
+        "extraInfo": {
+            "content": "Although NBC canceled the series after one season, the series was renewed three days later following negotiations with Sony Pictures Television. The ten-episode second season premiered on March 11, 2018, and ran until NBC canceled the series again in June 2018. One month later, NBC ordered a two-part finale to conclude the series, which aired on December 20, 2018.",
+            "source": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Timeless_(TV_series)"
+        }
+    }
+    ,
+    "Sledge Hammer! (1986)": {
+        "imdbID": "0090525",
+        "isCutShort": 1,
+        "hasCliffhanger": 1,
+        "extraInfo": {
+            "content": "Because ABC intended to cancel the series, the last episode of the first season ends with an intentional cliffhanger. This episode received much better than expected ratings; ABC changed its mind and renewed the show for a second season, which was made as a prequel, keeping the cliffhanger ending intact chronologically.",
+            "source": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Timeless_(TV_series)"
+        }
+    }
 }
