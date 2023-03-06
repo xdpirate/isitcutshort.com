@@ -788,4 +788,79 @@
             "url": "https://en.wikipedia.org/wiki/Prison_Break"
         }
     }
+    ,
+    "Dark (2017)": {
+        "imdbID": "5753856",
+        "isCutShort": 0,
+        "hasCliffhanger": 0
+    }
+    ,
+    "Castlevania (2017)": {
+        "imdbID": "6517102",
+        "isCutShort": 0,
+        "hasCliffhanger": 0
+    }
+    ,
+    "Community (2009)": {
+        "imdbID": "1439629",
+        "isCutShort": 0,
+        "hasCliffhanger": 0,
+        "extraInfo": {
+            "content": "A movie has been announced at Peacock, completing the show's running gag of \"Six seasons and a movie!\"",
+            "source": "Variety",
+            "url": "https://variety.com/2022/tv/news/community-movie-peacock-dan-harmon-joel-mchale-1235389233/"
+        }
+    }
+    ,
+    "The Boys (2019)": {
+        "imdbID": "1190634",
+        "isCutShort": 0,
+        "hasCliffhanger": 0,
+        "extraInfo": {
+            "content": "According to sources close to production, season 5 will be the last. Since this is being planned in advance, it's safe to assume it won't be cut short/cliffhanged. Information verified as of 6th March 2023.",
+            "source": "@VoughtHQ on Instagram",
+            "url": "https://www.instagram.com/p/Con1yoYqxal/"
+        }
+    }
+    ,
+    "Dirk Gently's Holistic Detective Agency (2016)": {
+        "imdbID": "4047038",
+        "isCutShort": 1,
+        "hasCliffhanger": 0
+    }
+    ,
+    "Happy (2017)": {
+        "imdbID": "2452242",
+        "isCutShort": 1,
+        "hasCliffhanger": 0
+    }
+    ,
+    "Midnight Club (2022)": {
+        "imdbID": "13444912",
+        "isCutShort": 1,
+        "hasCliffhanger": 1,
+        "extraInfo": {
+            "content": "After the show's cancellation, showrunner Mike Flanagan shared his plans for season 2 on his personal Tumblr. Warning: Spoilers!",
+            "source": "flanaganfilm on Tumblr",
+            "url": "https://flanaganfilm.tumblr.com/post/702543785726558208/the-midnight-club-season-two"
+        }
+    }
+    ,
+    "BoJack Horseman (2014)": {
+        "imdbID": "3398228",
+        "isCutShort": 0,
+        "hasCliffhanger": 0
+    }
+    ,
+    "American Vandal (2017)": {
+        "imdbID": "6877772",
+        "isCutShort": 1,
+        "hasCliffhanger": 0
+    }
+    ,
+    "Brand New Cherry Flavor (2021)": {
+        "imdbID": "6877772",
+        "isCutShort": 0,
+        "hasCliffhanger": 1
+    }
 }
