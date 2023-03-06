@@ -825,9 +825,15 @@
         "hasCliffhanger": 0
     }
     ,
-    "Star Trek: Enterprise": {
+    "Star Trek: Enterprise (2001)": {
         "imdbID": "0244365",
         "isCutShort": 1,
         "hasCliffhanger": 0
+    }
+    ,
+    "Archive 81 ": {
+        "imdbID": "13365348",
+        "isCutShort": 1,
+        "hasCliffhanger": 1
     }
 }
