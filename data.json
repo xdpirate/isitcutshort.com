@@ -689,4 +689,10 @@
         "isCutShort": 0,
         "hasCliffhanger": 1
     }
+    ,
+    "Carnival Row (2019)": {
+        "imdbID": "0489974",
+        "isCutShort": 1,
+        "hasCliffhanger": 0
+    }
 }
