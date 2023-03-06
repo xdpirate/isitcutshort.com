@@ -865,4 +865,21 @@
         "isCutShort": 1,
         "hasCliffhanger": 1
     }
+    ,
+    "Jessica Jones (2015)": {
+        "imdbID": "2357547",
+        "isCutShort": 1,
+        "hasCliffhanger": 0
+    }
+    ,
+    "Daredevil (2015)": {
+        "imdbID": "3322312",
+        "isCutShort": 1,
+        "hasCliffhanger": 0,
+        "extraInfo": {
+            "content": "On November 29, 2018, Netflix canceled the series after three seasons. A reboot was confirmed to be in development for Disney+ in May of 2022 and is scheduled to premiere in early 2024.",
+            "source": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Daredevil_(TV_series)#Cancellation_and_future"
+        }
+    }
 }
