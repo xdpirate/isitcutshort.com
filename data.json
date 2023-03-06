@@ -882,4 +882,15 @@
             "url": "https://en.wikipedia.org/wiki/Daredevil_(TV_series)#Cancellation_and_future"
         }
     }
+    ,
+    "Dark Matter (2015)": {
+        "imdbID": "4159076",
+        "isCutShort": 1,
+        "hasCliffhanger": 1,
+        "extraInfo": {
+            "content": "Creator Joseph Mallozzi made a series of blog posts detailing what the plans for the final two seasons would have been. <a target=\"_blank\" href=\"https://josephmallozzi.com/2017/12/07/december-7-2017-last-nights-darkgate-highlights/\">[1]</a> <a target=\"_blank\" href=\"https://josephmallozzi.com/2017/12/11/december-11-2017-dark-matter-secrets-revealed/\">[2]</a> <a target=\"_blank\" href=\"https://josephmallozzi.com/2017/12/19/december-19-2017-that-dark-matter-dark-timeline-revealed/\">[3]</a> ",
+            "source": "Joseph Mallozzi's Weblog",
+            "url": "https://josephmallozzi.com/"
+        }
+    }
 }
