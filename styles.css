@@ -29,7 +29,7 @@ h1 {
     margin-bottom: 5px;
 }
 
-div#recentsWrapper, div#browseWrapper {
+div#recentsWrapper, div#browseWrapper, div#listWrapper {
     display: none;
 }
 

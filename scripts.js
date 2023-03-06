@@ -36,6 +36,13 @@ window.addEventListener('load', (event) => {
                 break;
             }
         }
+
+        let listDiv = document.getElementById("listDiv");
+        listDiv.innerHTML = `<b>All TV shows in database:</b><br /><br />`;
+        entries = Object.entries(jsonDataOrdered);
+        for(let i = 1; i < entries.length; i++) {
+            listDiv.innerHTML += getShowBoxHTML(entries[i][0]);
+        }
         
         let browseNav = document.getElementById("browseNav");
         let browseKeys = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
@@ -88,6 +95,8 @@ window.addEventListener('load', (event) => {
                     document.getElementById(`browseRadio${params.get("letter")}`).checked = true;
                 }
             }
+        } else if(params.get("page") == "list") {
+            changePage("list");
         } else {
             searchBox.focus();
         }
@@ -97,16 +106,19 @@ window.addEventListener('load', (event) => {
 document.getElementById("searchMenuChoice").onclick = function() { changePage("search"); };
 document.getElementById("recentsMenuChoice").onclick = function() { changePage("recents"); };
 document.getElementById("browseMenuChoice").onclick = function() { changePage("browse"); };
+document.getElementById("listMenuChoice").onclick = function() { changePage("list"); };
 
 function changePage(pageName) {
     if(pageName == "search") {
         document.getElementById("searchMenuChoice").style.textDecoration = "underline";
         document.getElementById("recentsMenuChoice").style.textDecoration = "none";
         document.getElementById("browseMenuChoice").style.textDecoration = "none";
+        document.getElementById("listMenuChoice").style.textDecoration = "none";
     
         document.getElementById("searchWrapper").style.display = "block";
         document.getElementById("recentsWrapper").style.display = "none";
         document.getElementById("browseWrapper").style.display = "none";
+        document.getElementById("listWrapper").style.display = "none";
 
         const url = new URL(window.location);
         url.searchParams.delete("page");
@@ -118,10 +130,12 @@ function changePage(pageName) {
         document.getElementById("searchMenuChoice").style.textDecoration = "none";
         document.getElementById("recentsMenuChoice").style.textDecoration = "underline";
         document.getElementById("browseMenuChoice").style.textDecoration = "none";
+        document.getElementById("listMenuChoice").style.textDecoration = "none";
 
         document.getElementById("searchWrapper").style.display = "none";
         document.getElementById("recentsWrapper").style.display = "block";
         document.getElementById("browseWrapper").style.display = "none";
+        document.getElementById("listWrapper").style.display = "none";
         
         const url = new URL(window.location);
         url.searchParams.delete("q");
@@ -132,10 +146,12 @@ function changePage(pageName) {
         document.getElementById("searchMenuChoice").style.textDecoration = "none";
         document.getElementById("recentsMenuChoice").style.textDecoration = "none";
         document.getElementById("browseMenuChoice").style.textDecoration = "underline";
+        document.getElementById("listMenuChoice").style.textDecoration = "none";
     
         document.getElementById("searchWrapper").style.display = "none";
         document.getElementById("recentsWrapper").style.display = "none";
         document.getElementById("browseWrapper").style.display = "block";
+        document.getElementById("listWrapper").style.display = "none";
 
         const url = new URL(window.location);
         url.searchParams.delete("q");
@@ -153,6 +169,22 @@ function changePage(pageName) {
             }
         }
 
+        window.history.pushState({}, "", url);
+    } else if(pageName == "list") {
+        document.getElementById("searchMenuChoice").style.textDecoration = "none";
+        document.getElementById("recentsMenuChoice").style.textDecoration = "none";
+        document.getElementById("browseMenuChoice").style.textDecoration = "none";
+        document.getElementById("listMenuChoice").style.textDecoration = "underline";
+
+        document.getElementById("searchWrapper").style.display = "none";
+        document.getElementById("recentsWrapper").style.display = "none";
+        document.getElementById("browseWrapper").style.display = "none";
+        document.getElementById("listWrapper").style.display = "block";
+        
+        const url = new URL(window.location);
+        url.searchParams.delete("q");
+        url.searchParams.delete("letter");
+        url.searchParams.set("page", "list");
         window.history.pushState({}, "", url);
     }
 }
