@@ -118,7 +118,7 @@
         "isCutShort": 0,
         "hasCliffhanger": 0,
         "extraInfo": {
-            "content": "The finale was very poorly recieved at the time it was aired, which is a running joke throughout <i>Curb Your Enthusiasm</i>. A fictional reunion of <i>Seinfeld</i> takes place inside of <i>Curb Your Enthusiasm</i> in season 7, episode 10.",
+            "content": "The finale was very poorly received at the time it was aired, which is a running joke throughout <i>Curb Your Enthusiasm</i>. A fictional reunion of <i>Seinfeld</i> takes place inside of <i>Curb Your Enthusiasm</i> in season 7, episode 10.",
             "source": "Wikipedia",
             "url": "https://en.wikipedia.org/wiki/Seinfeld_(Curb_Your_Enthusiasm)"
         }
@@ -789,38 +789,181 @@
         }
     }
     ,
-    "Dark (2017)": {
-        "imdbID": "5753856",
-        "isCutShort": 0,
+    "Origin (2018)": {
+        "imdbID": "7801780",
+        "isCutShort": 1,
+        "hasCliffhanger": 1
+    }
+    ,
+    "The O.C. (2003)": {
+        "imdbID": "0362359",
+        "isCutShort": 1,
         "hasCliffhanger": 0
     }
     ,
-    "Castlevania (2017)": {
-        "imdbID": "6517102",
+    "Nurse Jackie (2009)": {
+        "imdbID": "1190689",
         "isCutShort": 0,
+        "hasCliffhanger": 1
+    }
+    ,
+    "Living with Yourself (2019)": {
+        "imdbID": "8880894",
+        "isCutShort": 0,
+        "hasCliffhanger": 1
+    }
+    ,
+    "Harry's Law (2011)": {
+        "imdbID": "1582453",
+        "isCutShort": 1,
         "hasCliffhanger": 0
     }
     ,
-    "Community (2009)": {
-        "imdbID": "1439629",
-        "isCutShort": 0,
-        "hasCliffhanger": 0,
+    "Knight Rider (1982)": {
+        "imdbID": "0083437",
+        "isCutShort": 1,
+        "hasCliffhanger": 0
+    }
+    ,
+    "Star Trek: Enterprise (2001)": {
+        "imdbID": "0244365",
+        "isCutShort": 1,
+        "hasCliffhanger": 0
+    }
+    ,
+    "Archive 81 (2022)": {
+        "imdbID": "13365348",
+        "isCutShort": 1,
+        "hasCliffhanger": 1
+    }
+    ,
+    "Almost Human (2013)": {
+        "imdbID": "2654580",
+        "isCutShort": 1,
+        "hasCliffhanger": 0
+    }
+    ,
+    "Final Space (2018)": {
+        "imdbID": "2654580",
+        "isCutShort": 1,
+        "hasCliffhanger": 1,
         "extraInfo": {
-            "content": "A movie has been announced at Peacock, completing the show's running gag of \"Six seasons and a movie!\"",
-            "source": "Variety",
-            "url": "https://variety.com/2022/tv/news/community-movie-peacock-dan-harmon-joel-mchale-1235389233/"
+            "content": "Adult Swim cancelled the series after three seasons due to the proposed merger of WarnerMedia and Discovery. In September 2022, creator Olan Rogers claimed on Twitter that the series would be written off as a loss for tax purposes by Warner Bros.",
+            "source": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Final_Space"
         }
     }
     ,
-    "The Boys (2019)": {
-        "imdbID": "1190634",
-        "isCutShort": 0,
+    "The Booth at the End (2011)": {
+        "imdbID": "1554369",
+        "isCutShort": 1,
+        "hasCliffhanger": 1
+    }
+    ,
+    "Dead End: Paranormal Park (2022)": {
+        "imdbID": "12642764",
+        "isCutShort": 1,
+        "hasCliffhanger": 1
+    }
+    ,
+    "Jessica Jones (2015)": {
+        "imdbID": "2357547",
+        "isCutShort": 1,
+        "hasCliffhanger": 0
+    }
+    ,
+    "Daredevil (2015)": {
+        "imdbID": "3322312",
+        "isCutShort": 1,
         "hasCliffhanger": 0,
         "extraInfo": {
-            "content": "According to sources close to production, season 5 will be the last. Since this is being planned in advance, it's safe to assume it won't be cut short/cliffhanged. Information verified as of 6th March 2023.",
-            "source": "@VoughtHQ on Instagram",
-            "url": "https://www.instagram.com/p/Con1yoYqxal/"
+            "content": "On November 29, 2018, Netflix canceled the series after three seasons. A reboot was confirmed to be in development for Disney+ in May of 2022 and is scheduled to premiere in early 2024.",
+            "source": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Daredevil_(TV_series)#Cancellation_and_future"
         }
+    }
+    ,
+    "Dark Matter (2015)": {
+        "imdbID": "4159076",
+        "isCutShort": 1,
+        "hasCliffhanger": 1,
+        "extraInfo": {
+            "content": "Creator Joseph Mallozzi made a series of blog posts detailing what the plans for the final two seasons would have been. <a target=\"_blank\" href=\"https://josephmallozzi.com/2017/12/07/december-7-2017-last-nights-darkgate-highlights/\">[1]</a> <a target=\"_blank\" href=\"https://josephmallozzi.com/2017/12/11/december-11-2017-dark-matter-secrets-revealed/\">[2]</a> <a target=\"_blank\" href=\"https://josephmallozzi.com/2017/12/19/december-19-2017-that-dark-matter-dark-timeline-revealed/\">[3]</a> ",
+            "source": "Joseph Mallozzi's Weblog",
+            "url": "https://josephmallozzi.com/"
+        }
+    }
+    ,
+    "A.P. Bio (2018)": {
+        "imdbID": "6461726",
+        "isCutShort": 1,
+        "hasCliffhanger": 0
+    }
+    ,
+    "Abby's (2019)": {
+        "imdbID": "7768346",
+        "isCutShort": 1,
+        "hasCliffhanger": -1
+    }
+    ,
+    "Shadowhunters: The Mortal Instruments (2016)": {
+        "imdbID": "4145054",
+        "isCutShort": 1,
+        "hasCliffhanger": 0
+    }
+    ,
+    "Quantico (2015)": {
+        "imdbID": "4428122",
+        "isCutShort": 1,
+        "hasCliffhanger": 0
+    }
+    ,
+    "The Shannara Chronicles (2016)": {
+        "imdbID": "1051220",
+        "isCutShort": 1,
+        "hasCliffhanger": 1
+    }
+    ,
+    "The Tomorrow People (2013)": {
+        "imdbID": "2660734",
+        "isCutShort": 1,
+        "hasCliffhanger": 1
+    }
+    ,
+    "Limitless (2015)": {
+        "imdbID": "4422836",
+        "isCutShort": 1,
+        "hasCliffhanger": 0
+    }
+    ,
+    "The Finder (2012)": {
+        "imdbID": "1943524",
+        "isCutShort": 1,
+        "hasCliffhanger": 0
+    }
+    ,
+    "Deadbeat (2014)": {
+        "imdbID": "3147316",
+        "isCutShort": 1,
+        "hasCliffhanger": -1
+    }
+    ,
+    "Z Nation (2014)": {
+        "imdbID": "3843168",
+        "isCutShort": 1,
+        "hasCliffhanger": 0
+    }
+    ,
+    "The Order (2019)": {
+        "imdbID": "8295472",
+        "isCutShort": 1,
+        "hasCliffhanger": 1
+    }
+    ,
+    "Warrior Nun (2019)": {
+        "imdbID": "9059350",
+        "isCutShort": 1,
+        "hasCliffhanger": 0
     }
     ,
     "Dirk Gently's Holistic Detective Agency (2016)": {
@@ -840,16 +983,10 @@
         "isCutShort": 1,
         "hasCliffhanger": 1,
         "extraInfo": {
-            "content": "After the show's cancellation, showrunner Mike Flanagan shared his plans for season 2 on his personal Tumblr. Warning: Spoilers!",
+            "content": "After the show's cancellation, showrunner Mike Flanagan shared his plans for season 2 on Tumblr.",
             "source": "flanaganfilm on Tumblr",
             "url": "https://flanaganfilm.tumblr.com/post/702543785726558208/the-midnight-club-season-two"
         }
-    }
-    ,
-    "BoJack Horseman (2014)": {
-        "imdbID": "3398228",
-        "isCutShort": 0,
-        "hasCliffhanger": 0
     }
     ,
     "American Vandal (2017)": {

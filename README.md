@@ -18,7 +18,7 @@ If a show fulfills any of these criteria, you can request it to be included:
 
 - It was ended without a cliffhanger, but more show content exists outside the show itself<br />Example: Seinfeld &mdash; Had a fictional reunion episode on Curb Your Enthusiasm
 
-Please don't request any shows that ran from beginning to end normally, or is currently running with none of the above criteria fulfilled &mdash; the point of the site is to list shows that have or have had trouble wrapping up their stories, or have more content in other shows.
+Please don't request any shows that ran from beginning to end normally, or is currently running with none of the above criteria fulfilled, or non-fiction shows (news shows, magazines, etc.),  &mdash; the point of the site is to list shows that have or have had trouble wrapping up their storylines, or have more content in other shows.
 
 ## License for data.json
 The data file (data.json) is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).

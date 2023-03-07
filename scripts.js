@@ -1,6 +1,6 @@
 let jsonData = {};
-let jsonDataTimestamp = "202303093500";
-let jsonDataOrdered = {};
+let jsonDataTimestamp = "20230307142016";
+let orderedShowNames = [];
 
 window.addEventListener('load', (event) => {
     let searchBox = document.querySelector("#searchBox");
@@ -14,13 +14,24 @@ window.addEventListener('load', (event) => {
 
         document.querySelector("span#numShows").innerHTML = Object.keys(jsonData).length;
 
-        // Because FUCK trying to keep data.json sorted manually
-        jsonDataOrdered = Object.keys(jsonData).sort().reduce(
-            (obj, key) => { 
-              obj[key] = jsonData[key]; 
-              return obj;
-            }, {}
-        );
+        // Sort json keys into array
+        let jsonEntries = Object.entries(jsonData);
+        let jsonKeys = [];
+
+        for(let i = 0; i < jsonEntries.length; i++) {
+            jsonKeys.push(jsonEntries[i][0]);
+        }
+
+        // Adapted from https://stackoverflow.com/a/34347659
+        orderedShowNames = jsonKeys.slice().sort(function titleComparator(a, b) {
+            let articleRegex = new RegExp('^(?:(a|an|the) )(.*)$'),
+                replaceFunc = function ($0, $1, $2) {
+                    return $2 + ', ' + $1;
+                };
+            a = a.toLowerCase().replace(articleRegex, replaceFunc);
+            b = b.toLowerCase().replace(articleRegex, replaceFunc);
+            return a === b ? 0 : a < b ? -1 : 1;
+        });
 
         searchBox.placeholder = "🔍 Search for a TV show";
         searchBox.disabled = false;
@@ -39,9 +50,9 @@ window.addEventListener('load', (event) => {
 
         let listDiv = document.getElementById("listDiv");
         listDiv.innerHTML = `<b>All TV shows in database:</b><br /><br />`;
-        entries = Object.entries(jsonDataOrdered);
-        for(let i = 1; i < entries.length; i++) {
-            listDiv.innerHTML += getShowBoxHTML(entries[i][0]);
+        
+        for(let i = 1; i < orderedShowNames.length; i++) {
+            listDiv.innerHTML += getShowBoxHTML(orderedShowNames[i]);
         }
         
         let browseNav = document.getElementById("browseNav");
@@ -192,25 +203,45 @@ function changePage(pageName) {
 function changeBrowsePage(letter) {
     document.getElementById("browseDiv").innerHTML = "";
 
-    let currentLetterShows = {};
+    let currentLetterShows = [];
 
     if(letter == "sym") {
-        for(let show in jsonDataOrdered) {
-            if(new RegExp(/^[^A-Za-z\n]/).test(show)) {
-                currentLetterShows[show] = jsonDataOrdered[show];
+        for(let i = 0; i < orderedShowNames.length; i++) {
+            let show = orderedShowNames[i];
+
+            if(show.startsWith("The ")) {
+                show = show.substr(4);
+            } else if(show.startsWith("A ")) {
+                show = show.substr(2);
+            } else if(show.startsWith("An ")) {
+                show = show.substr(3);
+            }
+
+            if(new RegExp("^[^a-z]","i").test(show)) {
+                currentLetterShows.push(orderedShowNames[i]);
             }
         }
     } else {
-        for(let show in jsonDataOrdered) {
-            if(show.toLowerCase().startsWith(letter.toLowerCase())) {
-                currentLetterShows[show] = jsonDataOrdered[show];
+        for(let i = 0; i < orderedShowNames.length; i++) {
+            let show = orderedShowNames[i];
+
+            if(show.startsWith("The ")) {
+                show = show.substr(4);
+            } else if(show.startsWith("A ")) {
+                show = show.substr(2);
+            } else if(show.startsWith("An ")) {
+                show = show.substr(3);
+            }
+
+            if(new RegExp("^[" + letter + "]","i").test(show)) {
+                currentLetterShows.push(orderedShowNames[i]);
             }
         }
     }
 
-    if(Object.entries(currentLetterShows).length > 0) {
-        for(let show in currentLetterShows) {
-            document.getElementById("browseDiv").innerHTML += getShowBoxHTML(show);
+    if(currentLetterShows.length > 0) {
+        for(let i = 0; i < currentLetterShows.length; i++) {
+            document.getElementById("browseDiv").innerHTML += getShowBoxHTML(currentLetterShows[i]);
         }
     } else {
         document.getElementById("browseDiv").innerHTML = `There are currently no shows in the database that matches these criteria.`;
@@ -226,13 +257,13 @@ function changeBrowsePage(letter) {
 function getShowBoxHTML(show) {
     let showName = show.match(/^(.+) \([0-9]{4}\)$/)[1];
     return `
-        <div class="tvShowDiv${jsonDataOrdered[show].isCutShort == "1" || jsonDataOrdered[show].hasCliffhanger == "1" ? " cutShort" : " notCutShort"}">
-            <b><span class="permalink" title="Permalink" onclick="javascript:permalink('${show}');">${show}</span></b> ${jsonDataOrdered[show].isCutShort == "1" || jsonDataOrdered[show].hasCliffhanger == "1" ? `<span title="Cut short!">❌</span>` : `<span title="Not cut short!">✅</span>`}
+        <div class="tvShowDiv${jsonData[show].isCutShort == "1" || jsonData[show].hasCliffhanger == "1" ? " cutShort" : " notCutShort"}">
+            <b><span class="permalink" title="Permalink" onclick="javascript:permalink('${show}');">${show}</span></b> ${jsonData[show].isCutShort == "1" || jsonData[show].hasCliffhanger == "1" ? `<span title="Cut short!">❌</span>` : `<span title="Not cut short!">✅</span>`}
             <small>
-                <sup><a href="https://www.imdb.com/title/tt${jsonDataOrdered[show].imdbID}/">(IMDb)</a></sup><hr />
-                <i>${showName}</i> ${jsonDataOrdered[show].isCutShort == "1" ? `was <span class="cutShort">cut short</span>. ` : `has <span class="notCutShort">not been cut short</span>. `}
-                ${jsonDataOrdered[show].hasCliffhanger == "1" ? `It <span class="cutShort">ended on a cliffhanger</span>.` : `${jsonDataOrdered[show].hasCliffhanger == "0" ? `It <span class="notCutShort">does not end with a cliffhanger</span>.` : "There is no data available on whether it ended on a cliffhanger."}`}
-                ${jsonDataOrdered[show].extraInfo ? `<br /><br />${jsonDataOrdered[show].extraInfo.content} <a href="${jsonDataOrdered[show].extraInfo.url}">(${jsonDataOrdered[show].extraInfo.source})</a>` : ""}
+                <sup><a href="https://www.imdb.com/title/tt${jsonData[show].imdbID}/">(IMDb)</a></sup><hr />
+                <i>${showName}</i> ${jsonData[show].isCutShort == "1" ? `was <span class="cutShort">cut short</span>. ` : `has <span class="notCutShort">not been cut short</span>. `}
+                ${jsonData[show].hasCliffhanger == "1" ? `It <span class="cutShort">ended on a cliffhanger</span>.` : `${jsonData[show].hasCliffhanger == "0" ? `It <span class="notCutShort">does not end with a cliffhanger</span>.` : "There is no data available on whether it ended on a cliffhanger."}`}
+                ${jsonData[show].extraInfo ? `<br /><br />${jsonData[show].extraInfo.content} <a href="${jsonData[show].extraInfo.url}">(${jsonData[show].extraInfo.source})</a>` : ""}
             </small>
         </div>\n
     `;
@@ -242,10 +273,11 @@ function doSearch(event) {
     let searchTerm = document.querySelector("#searchBox").value.trim();
     if(searchTerm) {
         let results = "";
-        let i = 0;
+        let count = 0;
 
-        for(let show in jsonDataOrdered) {
-            if(i < 5) {
+        for(let i = 0; i < orderedShowNames.length; i++) {
+            let show = orderedShowNames[i];
+            if(count < 5) {
                 if(show.toLowerCase().includes(searchTerm.toLowerCase())) {
                     let showName = show.match(/^(.+) \([0-9]{4}\)$/)[1];
                     results += `
@@ -259,7 +291,7 @@ function doSearch(event) {
                             </small>
                         </div>\n
                     `;
-                    i++;
+                    count++;
                 }
             } else {
                 break;
