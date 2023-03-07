@@ -893,4 +893,77 @@
             "url": "https://josephmallozzi.com/"
         }
     }
+    ,
+    "A.P. Bio (2018)": {
+        "imdbID": "6461726",
+        "isCutShort": 1,
+        "hasCliffhanger": 0
+    }
+    ,
+    "Abby's (2019)": {
+        "imdbID": "7768346",
+        "isCutShort": 1,
+        "hasCliffhanger": -1
+    }
+    ,
+    "Shadowhunters: The Mortal Instruments (2016)": {
+        "imdbID": "4145054",
+        "isCutShort": 1,
+        "hasCliffhanger": 0
+    }
+    ,
+    "Quantico (2015)": {
+        "imdbID": "4428122",
+        "isCutShort": 1,
+        "hasCliffhanger": 0
+    }
+    ,
+    "The Shannara Chronicles (2016)": {
+        "imdbID": "1051220",
+        "isCutShort": 1,
+        "hasCliffhanger": 1
+    }
+    ,
+    "The Tomorrow People (2013)": {
+        "imdbID": "2660734",
+        "isCutShort": 1,
+        "hasCliffhanger": 1
+    }
+    ,
+    "Limitless (2015)": {
+        "imdbID": "4422836",
+        "isCutShort": 1,
+        "hasCliffhanger": 0
+    }
+    ,
+    "The Finder (2012)": {
+        "imdbID": "1943524",
+        "isCutShort": 1,
+        "hasCliffhanger": 0
+    }
+    ,
+    "Deadbeat (2014)": {
+        "imdbID": "3147316",
+        "isCutShort": 1,
+        "hasCliffhanger": -1
+    }
+    ,
+    "Z Nation (2014)": {
+        "imdbID": "3843168",
+        "isCutShort": 1,
+        "hasCliffhanger": 0
+    }
+    ,
+    "The Order (2019)": {
+        "imdbID": "8295472",
+        "isCutShort": 1,
+        "hasCliffhanger": 1
+    }
+    ,
+    "Warrior Nun (2019)": {
+        "imdbID": "9059350",
+        "isCutShort": 1,
+        "hasCliffhanger": 0
+    }
+
 }
