@@ -262,7 +262,7 @@ function getShowBoxHTML(show) {
             <small>
                 <sup><a href="https://www.imdb.com/title/tt${jsonData[show].imdbID}/">(IMDb)</a></sup><hr />
                 <i>${showName}</i> ${jsonData[show].isCutShort == "1" ? `was <span class="cutShort">cut short</span>. ` : `has <span class="notCutShort">not been cut short</span>. `}
-                ${jsonData[show].hasCliffhanger == "1" ? `It <span class="cutShort">ended on a cliffhanger</span>.` : `${jsonData[show].hasCliffhanger == "0" ? `It <span class="notCutShort">does not end with a cliffhanger</span>.` : "There is no data available on whether it ended on a cliffhanger."}`}
+                ${jsonData[show].hasCliffhanger == "1" ? `It <span class="cutShort">ended on a cliffhanger</span>.` : `${jsonData[show].hasCliffhanger == "0" ? `It <span class="notCutShort">does not end with a cliffhanger</span>.` : `There is <span class="noData">no data available</span> on whether it ended on a cliffhanger.<br />If you know, <a href="https://github.com/xdpirate/isitcutshort.com#how-to-contribute" target="_blank">please contribute to the database</a>!`}`}
                 ${jsonData[show].extraInfo ? `<br /><br />${jsonData[show].extraInfo.content} <a href="${jsonData[show].extraInfo.url}">(${jsonData[show].extraInfo.source})</a>` : ""}
             </small>
         </div>\n
@@ -279,18 +279,7 @@ function doSearch(event) {
             let show = orderedShowNames[i];
             if(count < 5) {
                 if(show.toLowerCase().includes(searchTerm.toLowerCase())) {
-                    let showName = show.match(/^(.+) \([0-9]{4}\)$/)[1];
-                    results += `
-                        <div class="tvShowDiv${jsonData[show].isCutShort == "1" || jsonData[show].hasCliffhanger == "1" ? " cutShort" : " notCutShort"}">
-                            <b><span class="permalink" title="Permalink" onclick="javascript:permalink('${show}');">${show}</span></b> ${jsonData[show].isCutShort == "1" || jsonData[show].hasCliffhanger == "1" ? `<span title="Cut short!">❌</span>` : `<span title="Not cut short!">✅</span>`}
-                            <small>
-                                <sup><a href="https://www.imdb.com/title/tt${jsonData[show].imdbID}/">(IMDb)</a></sup><hr />
-                                <i>${showName}</i> ${jsonData[show].isCutShort == "1" ? `was <span class="cutShort">cut short</span>. ` : `has <span class="notCutShort">not been cut short</span>. `}
-                                ${jsonData[show].hasCliffhanger == "1" ? `It <span class="cutShort">ended on a cliffhanger</span>.` : `${jsonData[show].hasCliffhanger == "0" ? `It <span class="notCutShort">does not end with a cliffhanger</span>.` : `There is <span class="noData">no data available</span> on whether it ended on a cliffhanger.<br />If you know, <a href="https://github.com/xdpirate/isitcutshort.com#how-to-contribute" target="_blank">please contribute to the database</a>!`}`}
-                                ${jsonData[show].extraInfo ? `<br /><br />${jsonData[show].extraInfo.content} <a href="${jsonData[show].extraInfo.url}">(${jsonData[show].extraInfo.source})</a>` : ""}
-                            </small>
-                        </div>\n
-                    `;
+                    results += getShowBoxHTML(show);
                     count++;
                 }
             } else {
