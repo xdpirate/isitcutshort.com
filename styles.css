@@ -29,6 +29,10 @@ h1 {
     margin-bottom: 5px;
 }
 
+h1 > a {
+    text-decoration: none;
+}
+
 div#recentsWrapper, div#browseWrapper, div#listWrapper {
     display: none;
 }
