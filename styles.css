@@ -56,6 +56,11 @@ span.notCutShort {
     font-weight: bold;
 }
 
+span.noData {
+    color: #444;
+    font-weight: bold;
+}
+
 input {
     width: 100%;
     font-size: 24px;
@@ -88,6 +93,7 @@ div.notCutShort {
     border: 2px solid green;
     background-color: #f4fff5;
 }
+
 
 /* Phone styles */
 @media all and (max-width: 1000px) {
