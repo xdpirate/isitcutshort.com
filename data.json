@@ -1386,5 +1386,20 @@
             "source": "ScreenRant",
             "url": "https://screenrant.com/teen-titans-show-cartoon-ending-changed-comics/"
         }
+    },
+    "Y: The Last Man (2021)": {
+        "imdbID": "8042500",
+        "isCutShort": "1",
+        "hasCliffhanger": "1",
+        "extraInfo": {
+            "content": "The Teen Titans comic continued the story to give the series a happy ending.",
+            "source": "ScreenRant",
+            "url": "https://screenrant.com/teen-titans-show-cartoon-ending-changed-comics/"
+        }
+    },
+    "The Blacklist: Redemption (2017)": {
+        "imdbID": "5592230",
+        "isCutShort": "1",
+        "hasCliffhanger": "1"
     }
 }
