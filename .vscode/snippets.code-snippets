@@ -1,0 +1,66 @@
+{
+	// Place your global snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
+	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
+	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
+	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
+	// Placeholders with the same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"scope": "javascript,typescript",
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+	"Timestamp": {
+		"prefix": "timestamp",
+		"description": "Print timestamp with in the format of YYYYMMDDHHMMSS.",
+		"body": [
+			"\"$CURRENT_YEAR$CURRENT_MONTH$CURRENT_DATE$CURRENT_HOUR$CURRENT_MINUTE$CURRENT_SECOND\"",
+		]
+	},
+	"New short data.json entry": {
+		"prefix": "dshort",
+		"description": "Insert a new short data.json entry",
+		"body": [
+			",",
+			"\"Show (2019)\": {",
+			"\t\"imdbID\": \"12345678\",",
+			"\t\"isCutShort\": \"1\",",
+			"\t\"hasCliffhanger\": \"-1\"",
+			"}",
+		]
+	},
+	"New long data.json entry": {
+		"prefix": "dlong",
+		"description": "Insert a new long data.json entry",
+		"body": [
+			",",
+			"\"Show (2019)\": {",
+			"\t\"imdbID\": \"12345678\",",
+			"\t\"isCutShort\": \"1\",",
+			"\t\"hasCliffhanger\": \"-1\",",
+			"\t\"extraInfo\": {",
+			"\t\t\"content\": \"Content\",",
+			"\t\t\"source\": \"Wikipedia\",",
+			"\t\t\"url\": \"replaceme\"",
+			"\t}",
+			"}",
+		]
+	},
+	"Insert extraInfo in data.json": {
+		"prefix": "dextra",
+		"description": "Insert a new extraInfo structure",
+		"body": [
+			",",
+			"\"extraInfo\": {",
+			"\t\"content\": \"Content\",",
+			"\t\"source\": \"Wikipedia\",",
+			"\t\"url\": \"replaceme\"",
+			"}",
+		]
+	}
+}

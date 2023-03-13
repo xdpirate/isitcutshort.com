@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>JSONify for IICS</title>
+    </head>
+    
+    <body>
+        <h1>JSONify for IICS</h1>
+
+        <div id="formArea">
+            List of show names to JSONify:<br />
+            <textarea id="submittedText" rows=10 cols=80></textarea><br /><br />
+            
+            <input type="button" value="Parse" onclick="javascript:parseText()" /> 
+            <input type="button" value="Clear" onclick="javascript:clearAreas()" /> 
+        </div>
+        
+        <pre id="resultsArea" style="margin-top: 20px;"></div>
+
+        <script>
+            function parseText() {
+                let jsonWrapper = {};
+                let lines;
+                let inputText = document.getElementById("submittedText").value;
+                
+                if(inputText.includes("\n")) {
+                    lines = inputText.split("\n");
+                } else {
+                    lines = new Array(inputText);
+                }
+                
+                
+                for(let i = 0; i < lines.length; i++) {
+                    let showName = lines[i].trim();
+                    if(showName && showName != "" && showName != undefined) {
+                        jsonWrapper[showName] = {
+                            "imdbID": "REPLACEME",
+                            "isCutShort": "1",
+                            "hasCliffhanger": "-1"
+                        };
+                    }
+                }
+                
+                document.getElementById("resultsArea").innerHTML = JSON.stringify(jsonWrapper, undefined, 4);
+            }
+
+
+            function clearAreas() {
+                document.getElementById("submittedText").value = "";
+                document.getElementById("resultsArea").innerHTML = "";
+            }
+        </script>
+    </body>
+</html>

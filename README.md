@@ -74,6 +74,21 @@ The sub-key `extraInfo` is optional, so an entry can be as simple as:
     - `source` (required if `extraInfo` included) - The name of the source of the extra info you are including.
     - `url` (required if `extraInfo` included) - The URL to the source of the extra info you are including.
 
+## Working with the data
+I've included some tools in the repo that will make working with the data faster and easier. To use these tools, clone the repo locally and refer to the following files:
+
+* In [`.vscode/snippets.code-snippets`](https://github.com/xdpirate/isitcutshort.com/blob/main/.vscode/snippets.code-snippets) you'll find some snippets for VSCode/VSCodium which will be automatically loaded if you clone the repo and open it in VSC. These snippets help you:
+    
+    * insert a suitable timestamp for the top of `scripts.js` whenever `data.json` has been changed.
+
+    * insert short and long data structures for new shows into `data.json` (with or without `extraInfo`), or insert only `extraInfo`
+
+* In [`tools/transform_imdb_url.sh`](https://github.com/xdpirate/isitcutshort.com/blob/main/tools/transform_imdb_url.sh), you'll find a helpful Bash script that will monitor your clipboard for an IMDb URL. When it finds an IMDb URL, it will truncate it to only contain the ID, suitable for pasting into `data.json`. Suggested use is to run the script in the background: When you've found the right show on IMDb, either right-click to copy the link to the show page, or press Alt+D > Ctrl+C on the keyboard to copy the URL - now you can Alt+Tab directly into your editor and paste the IMDb ID directly without having to manually extract it from the URL. Press Ctrl+C in the terminal to exit the script. The script requires `xclip`, and is only tested on Linux with Xorg.
+
+* In [`tools/JSONify.html`](https://github.com/xdpirate/isitcutshort.com/blob/main/tools/JSONify.html), you'll find a helpful JS tool that will convert a newline-separated list of show names into the correct data structures used by IICS.
+
+* In [`tools/Multisearch.html`](https://github.com/xdpirate/isitcutshort.com/blob/main/tools/Multisearch.html), you'll find a helpful JS tool that will let you provide a newline-separated list of show names and open a bunch of new tabs to search for those shows on both Wikipedia and IMDb to verify details.
+
 ## License for data.json
 The data file (data.json) is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 

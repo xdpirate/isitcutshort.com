@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Multisearch</title>
+    </head>
+    
+    <body>
+        <h1>Multisearch</h1>
+        <div id="resultsArea" style="font-size: 22px; margin-bottom: 20px;">
+
+        </div>
+
+        <div id="formArea">
+            List of terms to search on WP &amp; IMDb:<br />
+            <textarea id="submittedText" rows=10 cols=80></textarea><br /><br />
+            
+            <input type="button" value="Parse" onclick="javascript:parseText()" /> 
+            <input type="button" value="Clear" onclick="javascript:clearAreas()" /> 
+        </div>
+
+        <script>
+        function parseText() {
+            let links = document.getElementById("submittedText").value.split("\n");
+            
+            if(links) {
+                for(let i = 0; i < links.length; i++) {
+                    window.open(`https://en.wikipedia.org/w/index.php?search=${encodeURIComponent(links[i].trim())}&title=Special%3ASearch`, "_blank");
+                    window.open(`https://www.imdb.com/find?ref_=nv_sr_fn&q=${encodeURIComponent(links[i].trim())}&s=all&title=Special%3ASearch`, "_blank");
+                }
+            }
+        }
+
+        function clearAreas() {
+            document.getElementById("submittedText").value = "";
+            document.getElementById("resultsArea").innerHTML = "";
+        }
+        </script>
+    </body>
+</html>
