@@ -1376,5 +1376,15 @@
         "imdbID": "0805663",
         "isCutShort": "1",
         "hasCliffhanger": "1"
+    },
+    "Teen Titans (2003)": {
+        "imdbID": "0343314",
+        "isCutShort": "1",
+        "hasCliffhanger": "1",
+        "extraInfo": {
+            "content": "The Teen Titans comic continued the story to give the series a happy ending.",
+            "source": "ScreenRant",
+            "url": "https://screenrant.com/teen-titans-show-cartoon-ending-changed-comics/"
+        }
     }
 }
