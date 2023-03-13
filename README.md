@@ -79,9 +79,9 @@ I've included some tools in the repo that will make working with the data faster
 
 * In [`.vscode/snippets.code-snippets`](https://github.com/xdpirate/isitcutshort.com/blob/main/.vscode/snippets.code-snippets) you'll find some snippets for VSCode/VSCodium which will be automatically loaded if you clone the repo and open it in VSC. These snippets help you:
     
-    * insert a suitable timestamp for the top of `scripts.js` whenever `data.json` has been changed.
+    * insert a suitable timestamp for the top of `scripts.js` whenever `data.json` has been changed. Snippet shortcut: `timestamp`
 
-    * insert short and long data structures for new shows into `data.json` (with or without `extraInfo`), or insert only `extraInfo`
+    * insert short and long data structures for new shows into `data.json` (with or without `extraInfo`), or insert only `extraInfo`. Snippet shortcuts: `dlong`, `dshort`, `dextra`
 
 * In [`tools/transform_imdb_url.sh`](https://github.com/xdpirate/isitcutshort.com/blob/main/tools/transform_imdb_url.sh), you'll find a helpful Bash script that will monitor your clipboard for an IMDb URL. When it finds an IMDb URL, it will truncate it to only contain the ID, suitable for pasting into `data.json`. Suggested use is to run the script in the background: When you've found the right show on IMDb, either right-click to copy the link to the show page, or press Alt+D > Ctrl+C on the keyboard to copy the URL - now you can Alt+Tab directly into your editor and paste the IMDb ID directly without having to manually extract it from the URL. Press Ctrl+C in the terminal to exit the script. The script requires `xclip`, and is only tested on Linux with Xorg.
 
