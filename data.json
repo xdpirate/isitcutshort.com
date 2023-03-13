@@ -1371,5 +1371,10 @@
             "source": "Wikipedia",
             "url": "https://en.wikipedia.org/wiki/A_Parks_and_Recreation_Special"
         }
+    },
+    "Jericho (2009)": {
+        "imdbID": "0805663",
+        "isCutShort": "1",
+        "hasCliffhanger": "1"
     }
 }
