@@ -1401,5 +1401,30 @@
         "imdbID": "5592230",
         "isCutShort": "1",
         "hasCliffhanger": "1"
+    },
+    "Drive (2007)": {
+        "imdbID": "0770521",
+        "isCutShort": "1",
+        "hasCliffhanger": "-1"
+    },
+    "The Owl House (2020)": {
+        "imdbID": "8050756",
+        "isCutShort": "1",
+        "hasCliffhanger": "0"
+    },
+    "Travelers (2016)": {
+        "imdbID": "5651844",
+        "isCutShort": "1",
+        "hasCliffhanger": "0"
+    },
+    "Twin Peaks (1990)": {
+        "imdbID": "0098936",
+        "isCutShort": "1",
+        "hasCliffhanger": "0",
+        "extraInfo": {
+            "content": "Twin Peaks originally ran for two seasons until its cancellation in 1991. The show returned in 2017 for a third season on Showtime.",
+            "source": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Twin_Peaks"
+        }
     }
 }
