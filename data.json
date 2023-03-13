@@ -369,7 +369,12 @@
     "Zoey's Extraordinary Playlist (2020)": {
         "imdbID": "10314462",
         "isCutShort": 1,
-        "hasCliffhanger": 1
+        "hasCliffhanger": 1,
+        "extraInfo": {
+            "content": "A TV movie called <i>Zoey's Extraordinary Christmas</i> was made by The Roku Channel and premiered on December 1st, 2021.",
+            "source": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Zoey's_Extraordinary_Playlist"
+        }
     },
     "Frequency (2016)": {
         "imdbID": "5531470",
@@ -990,7 +995,7 @@
     "First Kill (2022)": {
         "imdbID": "13315156",
         "isCutShort": "1",
-        "hasCliffhanger": "-1"
+        "hasCliffhanger": "1"
     },
     "Flatbush Misdemeanors (2021)": {
         "imdbID": "13266618",
@@ -1000,7 +1005,7 @@
     "Gentleman Jack (2019)": {
         "imdbID": "7211618",
         "isCutShort": "1",
-        "hasCliffhanger": "-1"
+        "hasCliffhanger": "0"
     },
     "Good Sam (2022)": {
         "imdbID": "11055882",
@@ -1275,7 +1280,12 @@
     "The Midnight Club (2022)": {
         "imdbID": "13444912",
         "isCutShort": "1",
-        "hasCliffhanger": "-1"
+        "hasCliffhanger": "1",
+        "extraInfo": {
+            "content": "The creator has shared some details on how the story would have progressed on his Tumblr blog.",
+            "source": "Tumblr",
+            "url": "https://flanaganfilm.tumblr.com/post/702543785726558208/the-midnight-club-season-two"
+        }
     },
     "The Mighty Ducks: Game Changers (2021)": {
         "imdbID": "7939768",
@@ -1295,7 +1305,7 @@
     "The Wilds (2020)": {
         "imdbID": "8633062",
         "isCutShort": "1",
-        "hasCliffhanger": "-1"
+        "hasCliffhanger": "1"
     },
     "Three Busy Debras (2020)": {
         "imdbID": "8619594",
@@ -1426,5 +1436,45 @@
             "source": "Wikipedia",
             "url": "https://en.wikipedia.org/wiki/Twin_Peaks"
         }
+    },
+    "The Dark Crystal: Age of Resistance (2019)": {
+        "imdbID": "6905542",
+        "isCutShort": "1",
+        "hasCliffhanger": "-1"
+    },
+    "Tron: Uprising (2012)": {
+        "imdbID": "1812523",
+        "isCutShort": "1",
+        "hasCliffhanger": "1"
+    },
+    "Altered Carbon (2018)": {
+        "imdbID": "2261227",
+        "isCutShort": "1",
+        "hasCliffhanger": "1"
+    },
+    "Snowpiercer (2020)": {
+        "imdbID": "6156584",
+        "isCutShort": "1",
+        "hasCliffhanger": "1"
+    },
+    "Lovecraft Country (2020)": {
+        "imdbID": "6905686",
+        "isCutShort": "1",
+        "hasCliffhanger": "0"
+    },
+    "Julie and the Phantoms (2020)": {
+        "imdbID": "6905686",
+        "isCutShort": "1",
+        "hasCliffhanger": "1"
+    },
+    "Infinity Train (2019)": {
+        "imdbID": "8146754",
+        "isCutShort": "1",
+        "hasCliffhanger": "0"
+    },
+    "Big Little Lies (2017)": {
+        "imdbID": "3920596",
+        "isCutShort": "1",
+        "hasCliffhanger": "1"
     }
 }
