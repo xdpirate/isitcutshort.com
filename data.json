@@ -1351,5 +1351,25 @@
         "imdbID": "1307824",
         "isCutShort": "1",
         "hasCliffhanger": "1"
+    },
+    "Human Giant (2007)": {
+        "imdbID": "0876298",
+        "isCutShort": "1",
+        "hasCliffhanger": "0",
+        "extraInfo": {
+            "content": "In interviews, the group has mentioned that they were offered a third season by MTV but were unable to complete it due to Aziz Ansari's commitments to the hit NBC show Parks & Recreation. In June 2010, Ansari hosted the MTV Movie Awards and premiered a Human Giant reunion sketch. It was the first time the group filmed a new sketch together since the series ended.",
+            "source": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Human_Giant"
+        }
+    },
+    "Parks and Recreation (2009)": {
+        "imdbID": "1266020",
+        "isCutShort": "0",
+        "hasCliffhanger": "0",
+        "extraInfo": {
+            "content": "In April 2020, the cast reprised their roles for a special episode that was created during the COVID-19 pandemic. It first aired on NBC and raised funds for Feeding America. ",
+            "source": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/A_Parks_and_Recreation_Special"
+        }
     }
 }
