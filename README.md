@@ -90,12 +90,14 @@ I've included some tools in the repo that will make working with the data faster
 * In [`tools/Multisearch.html`](https://github.com/xdpirate/isitcutshort.com/blob/main/tools/Multisearch.html), you'll find a helpful JS tool that will let you provide a newline-separated list of show names and open a bunch of new tabs to search for those shows on both Wikipedia and IMDb to verify details.
 
 ## License for data.json
-The data file (data.json) is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+The data file (data.json) is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). In short, this means you're allowed to reuse the data elsewhere, as long as you attribute this project, don't use it in a commercial capacity, and share it under the same license.
 
 ## License for the web app
+The web app is licensed under the [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html).
+
 >IsItCutShort.com - Find out if a TV show was cut short
 >
->Copyright &copy; 2022 xdpirate
+>Copyright &copy; 2022-2023 xdpirate
 >
 >This program is free software: you can redistribute it and/or modify
 >it under the terms of the GNU General Public License as published by
@@ -109,3 +111,5 @@ The data file (data.json) is licensed under [CC BY-NC-SA 4.0](https://creativeco
 >
 >You should have received a copy of the GNU General Public License
 >along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+The license is replicated in full in [LICENSE.md](https://github.com/xdpirate/isitcutshort.com/blob/main/LICENSE.md).
