@@ -74,8 +74,16 @@ div#tagline, div#navigationWrapper {
     margin-bottom: 10px;
 }
 
-div#searchDiv, div#browseNav, div#browseDiv, div#numShowsDiv {
+div#searchDiv, div#browseNav, div#listNav, div#listNavBtm, div#browseDiv, div#numShowsDiv {
     margin-bottom: 20px;
+}
+
+div#listNavBtm {
+    margin-top: 20px;
+}
+
+div#listNav, div#listNavBtm, div#browseNav {
+    text-align: center;
 }
 
 div#resultsDiv {

@@ -1,6 +1,7 @@
 let jsonData = {};
 let jsonDataTimestamp = "20230313213508";
 let orderedShowNames = [];
+let entriesPerPage = 20;
 
 window.addEventListener('load', (event) => {
     let searchBox = document.querySelector("#searchBox");
@@ -46,13 +47,6 @@ window.addEventListener('load', (event) => {
             if(i == 10) {
                 break;
             }
-        }
-
-        let listDiv = document.getElementById("listDiv");
-        listDiv.innerHTML = `<b>All TV shows in database:</b><br /><br />`;
-        
-        for(let i = 1; i < orderedShowNames.length; i++) {
-            listDiv.innerHTML += getShowBoxHTML(orderedShowNames[i]);
         }
         
         let browseNav = document.getElementById("browseNav");
@@ -114,12 +108,81 @@ window.addEventListener('load', (event) => {
     });
 });
 
+window.onpopstate = function(event) {
+    const url = new URL(window.location);
+    let currPage = url.searchParams.get("page");
+    
+    if(url.searchParams.get("q")) {
+        searchBox.value = url.searchParams.get("q");
+        searchBox.focus();
+        doSearch();
+    } else if(currPage == "search") {
+        changePage("search", true);
+        searchBox.focus();
+    } else if(currPage == "recents") {
+        changePage("recents", true);
+    } else if(currPage == "browse") {
+        changePage("browse", true);
+        if(url.searchParams.get("letter")) {
+            changeBrowsePage(url.searchParams.get("letter"));
+            if(url.searchParams.get("letter") == "sym") {
+                document.getElementById(`browseRadioSymbols`).checked = true;
+            } else {
+                document.getElementById(`browseRadio${url.searchParams.get("letter")}`).checked = true;
+            }
+        }
+    } else if(currPage == "list") {
+        changePage("list", true);
+    } else {
+        changePage("search", true);
+        searchBox.focus();
+    }
+};
+
 document.getElementById("searchMenuChoice").onclick = function() { changePage("search"); };
 document.getElementById("recentsMenuChoice").onclick = function() { changePage("recents"); };
 document.getElementById("browseMenuChoice").onclick = function() { changePage("browse"); };
 document.getElementById("listMenuChoice").onclick = function() { changePage("list"); };
 
-function changePage(pageName) {
+let listFirstPageButtons = document.getElementsByClassName("listFirstPage");
+listFirstPageButtons[0].onclick = function() { changeListPage(1); };
+listFirstPageButtons[1].onclick = function() { changeListPage(1); document.getElementById("listNav").scrollIntoView(); };
+
+let listPrevPageButtons = document.getElementsByClassName("listPrevPage");
+listPrevPageButtons[0].onclick = function() { listPrevPage(); };
+listPrevPageButtons[1].onclick = function() { listPrevPage(); document.getElementById("listNav").scrollIntoView(); };
+
+let listNextPageButtons = document.getElementsByClassName("listNextPage");
+listNextPageButtons[0].onclick = function() { listNextPage(); };
+listNextPageButtons[1].onclick = function() { listNextPage(); document.getElementById("listNav").scrollIntoView(); };
+
+let listLastPageButtons = document.getElementsByClassName("listLastPage");
+listLastPageButtons[0].onclick = function() { changeListPage(Math.ceil(orderedShowNames.length / entriesPerPage)); };
+listLastPageButtons[1].onclick = function() { changeListPage(Math.ceil(orderedShowNames.length / entriesPerPage)); document.getElementById("listNav").scrollIntoView(); };
+
+function listPrevPage() {
+    const url = new URL(window.location);
+    let currPgNum = Number(url.searchParams.get("pn"));
+    if(currPgNum && currPgNum > 1) {
+        currPgNum--;
+    } else {
+        currPgNum = 1;
+    }
+    changeListPage(currPgNum);
+}
+
+function listNextPage() {
+    const url = new URL(window.location);
+    let currPgNum = Number(url.searchParams.get("pn"));
+    if(currPgNum && currPgNum < Math.ceil(orderedShowNames.length / entriesPerPage)) {
+        currPgNum++;
+    } else {
+        currPgNum = Math.ceil(orderedShowNames.length / entriesPerPage);
+    }
+    changeListPage(currPgNum);
+}
+
+function changePage(pageName, boolReplaceState = false) {
     if(pageName == "search") {
         document.getElementById("searchMenuChoice").style.textDecoration = "underline";
         document.getElementById("recentsMenuChoice").style.textDecoration = "none";
@@ -134,7 +197,7 @@ function changePage(pageName) {
         const url = new URL(window.location);
         url.searchParams.delete("page");
         url.searchParams.delete("letter");
-        window.history.pushState({}, "", url);
+        url.searchParams.delete("pn");
 
         doSearch();
     } else if(pageName == "recents") {
@@ -150,9 +213,15 @@ function changePage(pageName) {
         
         const url = new URL(window.location);
         url.searchParams.delete("q");
+        url.searchParams.delete("pn");
         url.searchParams.delete("letter");
         url.searchParams.set("page", "recents");
-        window.history.pushState({}, "", url);
+
+        if(boolReplaceState) {
+            window.history.replaceState({}, "", url);
+        } else {
+            window.history.pushState({}, "", url);
+        }
     } else if(pageName == "browse") {
         document.getElementById("searchMenuChoice").style.textDecoration = "none";
         document.getElementById("recentsMenuChoice").style.textDecoration = "none";
@@ -166,6 +235,7 @@ function changePage(pageName) {
 
         const url = new URL(window.location);
         url.searchParams.delete("q");
+        url.searchParams.delete("pn");
         url.searchParams.set("page", "browse");
 
         let radioButtons = document.querySelectorAll('input[name="browseMenu"]');
@@ -180,7 +250,11 @@ function changePage(pageName) {
             }
         }
 
-        window.history.pushState({}, "", url);
+        if(boolReplaceState) {
+            window.history.replaceState({}, "", url);
+        } else {
+            window.history.pushState({}, "", url);
+        }
     } else if(pageName == "list") {
         document.getElementById("searchMenuChoice").style.textDecoration = "none";
         document.getElementById("recentsMenuChoice").style.textDecoration = "none";
@@ -193,14 +267,68 @@ function changePage(pageName) {
         document.getElementById("listWrapper").style.display = "block";
         
         const url = new URL(window.location);
-        url.searchParams.delete("q");
-        url.searchParams.delete("letter");
-        url.searchParams.set("page", "list");
+        
+        let maximumPages = Math.ceil(orderedShowNames.length / entriesPerPage);
+
+        let currPgNum = 1;
+        if(url.searchParams.get("pn")) {
+            currPgNum = Number(url.searchParams.get("pn"));
+            if(currPgNum > maximumPages) {
+                currPgNum = maximumPages;
+            }
+        }
+
+        changeListPage(currPgNum, boolReplaceState);
+    }
+}
+
+function changeListPage(currPgNum, boolReplaceState = false) {
+    let maximumPages = Math.ceil(orderedShowNames.length / entriesPerPage);
+    let currPageShowLow, currPageShowHigh;
+    currPageShowLow = (currPgNum * entriesPerPage) - (entriesPerPage - 1);
+    currPageShowHigh = currPgNum * entriesPerPage;
+
+    if(currPgNum == maximumPages) {
+        currPageShowHigh = orderedShowNames.length;
+    }
+
+    let currPageNums = document.getElementsByClassName("currPageNum");
+    currPageNums[0].innerHTML = currPgNum;
+    currPageNums[1].innerHTML = currPgNum;
+
+    let currPageRanges = document.getElementsByClassName("currPageRange");
+    currPageRanges[0].innerHTML = currPageShowLow + "-" + currPageShowHigh;
+    currPageRanges[1].innerHTML = currPageShowLow + "-" + currPageShowHigh;
+
+    let maxPageNums = document.getElementsByClassName("maxPageNum");
+    maxPageNums[0].innerHTML = Math.ceil(orderedShowNames.length / entriesPerPage);
+    maxPageNums[1].innerHTML = Math.ceil(orderedShowNames.length / entriesPerPage);
+    
+    let maxPageRanges = document.getElementsByClassName("maxPageRange");
+    maxPageRanges[0].innerHTML = orderedShowNames.length;
+    maxPageRanges[1].innerHTML = orderedShowNames.length;
+    
+    let listDiv = document.getElementById("listDiv");
+    listDiv.innerHTML = "";
+    for(let i = (currPageShowLow - 1); i < (currPageShowHigh - 1); i++) {
+        listDiv.innerHTML += getShowBoxHTML(orderedShowNames[i]);
+    }
+
+    const url = new URL(window.location);
+    
+    url.searchParams.delete("q");
+    url.searchParams.delete("letter");
+    url.searchParams.set("page", "list");
+    url.searchParams.set("pn", currPgNum);
+
+    if(boolReplaceState) {
+        window.history.replaceState({}, "", url);
+    } else {
         window.history.pushState({}, "", url);
     }
 }
 
-function changeBrowsePage(letter) {
+function changeBrowsePage(letter, boolReplaceState = false) {
     document.getElementById("browseDiv").innerHTML = "";
 
     let currentLetterShows = [];
@@ -250,7 +378,12 @@ function changeBrowsePage(letter) {
     const url = new URL(window.location);
     if(url.searchParams.get("page") == "browse") {
         url.searchParams.set("letter", letter);
-        window.history.pushState({}, "", url);
+        
+        if(boolReplaceState) {
+            window.history.replaceState({}, "", url);
+        } else {
+            window.history.pushState({}, "", url);
+        }
     }
 }
 
@@ -269,7 +402,7 @@ function getShowBoxHTML(show) {
     `;
 }
 
-function doSearch(event) {
+function doSearch(event, boolReplaceState = false) {
     let searchTerm = document.querySelector("#searchBox").value.trim();
     if(searchTerm) {
         let results = "";
@@ -315,7 +448,12 @@ function doSearch(event) {
     } else {
         url.searchParams.set("q", document.querySelector("#searchBox").value);
     }
-    window.history.pushState({}, "", url);
+
+    if(boolReplaceState) {
+        window.history.replaceState({}, "", url);
+    } else {
+        window.history.pushState({}, "", url);
+    }
 }
 
 function permalink(showName) {
