@@ -3,9 +3,9 @@
 
 ## Contributing
 ### How to contribute
-Feel free to contribute shows. You can:
+Feel free to contribute shows! You can:
 - post a pull request (see [data.json](https://github.com/xdpirate/isitcutshort.com/blob/main/data.json) for the data structure used, and add your show to that file)
-- post an issue with the show's name for review
+- [post an issue](https://github.com/xdpirate/isitcutshort.com/issues/new?assignees=&labels=show+suggestion&template=show-request.md&title=Show+suggestion) with the show's name for review
 - shoot me an [email](mailto:webmaster@isitcutshort.com?subject=Show%20contribution) with the show's name for review
 
 ## Contribution guidelines
