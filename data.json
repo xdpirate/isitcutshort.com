@@ -1165,7 +1165,7 @@
     "Queer as Folk (2022)": {
         "imdbID": "9569528",
         "isCutShort": "1",
-        "hasCliffhanger": "-1"
+        "hasCliffhanger": "0"
     },
     "Raising Dion (2019)": {
         "imdbID": "7826108",
@@ -1501,5 +1501,15 @@
             "source": "Wikipedia",
             "url": "https://en.wikipedia.org/wiki/Smith_(TV_series)"
         }
+    },
+    "Sneaky Pete (2015)": {
+        "imdbID": "5011816",
+        "isCutShort": "1",
+        "hasCliffhanger": "0"
+    },
+    "My Own Worst Enemy (2008)": {
+        "imdbID": "1217239",
+        "isCutShort": "1",
+        "hasCliffhanger": "1"
     }
 }
