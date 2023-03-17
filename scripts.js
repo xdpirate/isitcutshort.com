@@ -6,107 +6,118 @@ let entriesPerPage = 20;
 window.addEventListener('load', (event) => {
     let searchBox = document.querySelector("#searchBox");
     searchBox.disabled = true;
-    searchBox.placeholder = "⏲ Loading...";
+    searchBox.placeholder = "⏲ Loading... 0%";
 
-    fetch(`./data.json?${jsonDataTimestamp}`)
-    .then(response => { return response.json(); })
+    fetch(`./data.json.lzma?${jsonDataTimestamp}`)
+    .then(response => { return response.arrayBuffer(); })
     .then(data => {
-        jsonData = data;
-
-        document.querySelector("span#numShows").innerHTML = Object.keys(jsonData).length;
-
-        // Sort json keys into array
-        let jsonEntries = Object.entries(jsonData);
-        let jsonKeys = [];
-
-        for(let i = 0; i < jsonEntries.length; i++) {
-            jsonKeys.push(jsonEntries[i][0]);
-        }
-
-        // Adapted from https://stackoverflow.com/a/34347659
-        orderedShowNames = jsonKeys.slice().sort(function titleComparator(a, b) {
-            let articleRegex = new RegExp('^(?:(a|an|the) )(.*)$'),
-                replaceFunc = function ($0, $1, $2) {
-                    return $2 + ', ' + $1;
-                };
-            a = a.toLowerCase().replace(articleRegex, replaceFunc);
-            b = b.toLowerCase().replace(articleRegex, replaceFunc);
-            return a === b ? 0 : a < b ? -1 : 1;
+        LZMA.decompress(new Uint8Array(data), function on_finish(result, error) {
+            if(!error) {
+                jsonData = JSON.parse(result);
+                LoadData();
+            } else {
+                alert("Could not load data file!");
+            }
+        }, function on_progress(percent) {
+            searchBox.placeholder = `⏲ Loading... ${percent}%`;
         });
-
-        searchBox.placeholder = "🔍 Search for a TV show";
-        searchBox.disabled = false;
-        searchBox.onsearch = function() { doSearch(); };
-        
-        let recentsDiv = document.getElementById("recentsDiv");
-        recentsDiv.innerHTML = `<b>Most recently added TV shows:</b><br /><br />`;
-        let entries = Object.entries(jsonData);
-        for(let i = 1; i < entries.length; i++) {
-            recentsDiv.innerHTML += getShowBoxHTML(entries[entries.length - i][0]);
-
-            if(i == 10) {
-                break;
-            }
-        }
-        
-        let browseNav = document.getElementById("browseNav");
-        let browseKeys = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-        
-        browseNav.innerHTML = `
-            <input type="radio" name="browseMenu" id="browseRadioSymbols" />
-            <label id="browseNavSymbols" for="browseRadioSymbols" class="menuChoice" title="Numbers and symbols">#</label>
-        `;
-
-        for(let i = 0; i < 26; i++) {
-            browseNav.innerHTML += `
-                <input type="radio" name="browseMenu" id="browseRadio${browseKeys[i]}" />
-                <label id="browseNav${browseKeys[i]}" for="browseRadio${browseKeys[i]}" class="menuChoice">${browseKeys[i]}</label>
-            `;
-        }
-        
-        document.getElementById("browseNavSymbols").onclick = function() { 
-            changeBrowsePage("sym"); 
-        };
-        
-        for(let i = 0; i < 26; i++) {
-            document.getElementById(`browseNav${browseKeys[i]}`).onclick = function() {
-                changeBrowsePage(browseKeys[i]);
-            };
-        }
-
-        let params = new URLSearchParams(document.location.search);
-
-        if(!params.get("letter")) {
-            changeBrowsePage("A");
-            document.getElementById("browseRadioA").checked = true;
-        }
-
-        if(params.get("q")) {
-            searchBox.value = params.get("q");
-            searchBox.focus();
-            doSearch();
-        } else if(params.get("page") == "search") {
-            changePage("search");
-            searchBox.focus();
-        } else if(params.get("page") == "recents") {
-            changePage("recents");
-        } else if(params.get("page") == "browse") {
-            changePage("browse");
-            if(params.get("letter")) {
-                changeBrowsePage(params.get("letter"));
-                if(params.get("letter") == "sym") {
-                    document.getElementById(`browseRadioSymbols`).checked = true;
-                } else {
-                    document.getElementById(`browseRadio${params.get("letter")}`).checked = true;
-                }
-            }
-        } else if(params.get("page") == "list") {
-            changePage("list");
-        } else {
-            searchBox.focus();
-        }
     });
 });
+
+function LoadData() {
+    document.querySelector("span#numShows").innerHTML = Object.keys(jsonData).length;
+
+    // Sort json keys into array
+    let jsonEntries = Object.entries(jsonData);
+    let jsonKeys = [];
+
+    for(let i = 0; i < jsonEntries.length; i++) {
+        jsonKeys.push(jsonEntries[i][0]);
+    }
+
+    // Adapted from https://stackoverflow.com/a/34347659
+    orderedShowNames = jsonKeys.slice().sort(function titleComparator(a, b) {
+        let articleRegex = new RegExp('^(?:(a|an|the) )(.*)$'),
+            replaceFunc = function ($0, $1, $2) {
+                return $2 + ', ' + $1;
+            };
+        a = a.toLowerCase().replace(articleRegex, replaceFunc);
+        b = b.toLowerCase().replace(articleRegex, replaceFunc);
+        return a === b ? 0 : a < b ? -1 : 1;
+    });
+
+    searchBox.placeholder = "🔍 Search for a TV show";
+    searchBox.disabled = false;
+    searchBox.onsearch = function() { doSearch(); };
+    
+    let recentsDiv = document.getElementById("recentsDiv");
+    recentsDiv.innerHTML = `<b>Most recently added TV shows:</b><br /><br />`;
+    let entries = Object.entries(jsonData);
+    for(let i = 1; i < entries.length; i++) {
+        recentsDiv.innerHTML += getShowBoxHTML(entries[entries.length - i][0]);
+
+        if(i == 10) {
+            break;
+        }
+    }
+    
+    let browseNav = document.getElementById("browseNav");
+    let browseKeys = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    
+    browseNav.innerHTML = `
+        <input type="radio" name="browseMenu" id="browseRadioSymbols" />
+        <label id="browseNavSymbols" for="browseRadioSymbols" class="menuChoice" title="Numbers and symbols">#</label>
+    `;
+
+    for(let i = 0; i < 26; i++) {
+        browseNav.innerHTML += `
+            <input type="radio" name="browseMenu" id="browseRadio${browseKeys[i]}" />
+            <label id="browseNav${browseKeys[i]}" for="browseRadio${browseKeys[i]}" class="menuChoice">${browseKeys[i]}</label>
+        `;
+    }
+    
+    document.getElementById("browseNavSymbols").onclick = function() { 
+        changeBrowsePage("sym"); 
+    };
+    
+    for(let i = 0; i < 26; i++) {
+        document.getElementById(`browseNav${browseKeys[i]}`).onclick = function() {
+            changeBrowsePage(browseKeys[i]);
+        };
+    }
+
+    let params = new URLSearchParams(document.location.search);
+
+    if(!params.get("letter")) {
+        changeBrowsePage("A");
+        document.getElementById("browseRadioA").checked = true;
+    }
+
+    if(params.get("q")) {
+        searchBox.value = params.get("q");
+        searchBox.focus();
+        doSearch();
+    } else if(params.get("page") == "search") {
+        changePage("search");
+        searchBox.focus();
+    } else if(params.get("page") == "recents") {
+        changePage("recents");
+    } else if(params.get("page") == "browse") {
+        changePage("browse");
+        if(params.get("letter")) {
+            changeBrowsePage(params.get("letter"));
+            if(params.get("letter") == "sym") {
+                document.getElementById(`browseRadioSymbols`).checked = true;
+            } else {
+                document.getElementById(`browseRadio${params.get("letter")}`).checked = true;
+            }
+        }
+    } else if(params.get("page") == "list") {
+        changePage("list");
+    } else {
+        searchBox.focus();
+    }
+}
 
 window.onpopstate = function(event) {
     const url = new URL(window.location);
