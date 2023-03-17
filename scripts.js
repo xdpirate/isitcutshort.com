@@ -424,10 +424,8 @@ function doSearch(event, boolReplaceState = false) {
             document.querySelector("#resultsDiv").innerHTML = results;
         } else {
             let githubIssueLink = 
-                "https://github.com/xdpirate/isitcutshort.com/issues/new?title=" + 
-                `${encodeURIComponent(`Show request: ${searchTerm}`)}`.replace(/%20/g, "+") + 
-                "&body=" +
-                `${encodeURIComponent(`Please consider adding the show "${searchTerm}" to the site!`)}`.replace(/%20/g, "+")
+                "https://github.com/xdpirate/isitcutshort.com/issues/new?assignees=&labels=show+suggestion&template=show-request.md&title=" + 
+                `${encodeURIComponent(`Show request: ${searchTerm}`)}`.replace(/%20/g, "+")
             ;
                 
 
