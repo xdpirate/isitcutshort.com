@@ -12,7 +12,7 @@
         </div>
 
         <div id="formArea">
-            List of terms to search on WP &amp; IMDb:<br />
+            List of terms to search on WP:<br />
             <textarea id="submittedText" rows=10 cols=80></textarea><br /><br />
             
             <input type="button" value="Parse" onclick="javascript:parseText()" /> 
@@ -26,7 +26,6 @@
             if(links) {
                 for(let i = 0; i < links.length; i++) {
                     window.open(`https://en.wikipedia.org/w/index.php?search=${encodeURIComponent(links[i].trim())}&title=Special%3ASearch`, "_blank");
-                    //window.open(`https://www.imdb.com/find?ref_=nv_sr_fn&q=${encodeURIComponent(links[i].trim())}&s=all`, "_blank");
                 }
             }
         }

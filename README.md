@@ -87,7 +87,7 @@ I've included some tools in the repo that will make working with the data faster
 
 * In [`tools/JSONify.html`](https://github.com/xdpirate/isitcutshort.com/blob/main/tools/JSONify.html), you'll find a helpful JS tool that will convert a newline-separated list of show names into the correct data structures used by IICS.
 
-* In [`tools/Multisearch.html`](https://github.com/xdpirate/isitcutshort.com/blob/main/tools/Multisearch.html), you'll find a helpful JS tool that will let you provide a newline-separated list of show names and open a bunch of new tabs to search for those shows on both Wikipedia and IMDb to verify details.
+* In [`tools/Quicksearch.html`](https://github.com/xdpirate/isitcutshort.com/blob/main/tools/Quicksearch.html), you'll find a helpful JS tool that will let you provide a newline-separated list of show names and open a bunch of new tabs to search for those shows on Wikipedia to verify details.
 
 ## Compression
 Since 2023-03-17, IICS uses LZMA compression on the data file to reduce loading times and bandwidth usage. If you wish to replicate the compression in your fork, use the following pre-commit hook:
