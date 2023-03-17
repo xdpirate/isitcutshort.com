@@ -1482,9 +1482,14 @@
         "isCutShort": "1",
         "hasCliffhanger": "0",
         "extraInfo": {
-            "content": "The final episode ends ambiguously, but is not considered a cliffhanger, as one outcome is heavily implied.",
+            "content": "The final episode ends ambiguously, but is not considered a cliffhanger, as the outcome is heavily implied.",
             "source": "TV Series Finale",
             "url": "https://tvseriesfinale.com/tv-show/the-life-and-times-of-tim-last-episode-22761/"
         }
+    },
+    "The Magicians (2015)": {
+        "imdbID": "4254242",
+        "isCutShort": "1",
+        "hasCliffhanger": "0"
     }
 }
