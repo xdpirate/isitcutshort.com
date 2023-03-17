@@ -1491,5 +1491,15 @@
         "imdbID": "4254242",
         "isCutShort": "1",
         "hasCliffhanger": "0"
+    },
+    "Smith (2006)": {
+        "imdbID": "0805667",
+        "isCutShort": "1",
+        "hasCliffhanger": "1",
+        "extraInfo": {
+            "content": "The series was canceled after only three episodes had aired.",
+            "source": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Smith_(TV_series)"
+        }
     }
 }
