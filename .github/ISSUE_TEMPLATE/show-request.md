@@ -26,4 +26,3 @@ https://github.com/xdpirate/isitcutshort.com#viable-show-inclusions
 
 
 **Additional notes:**
-
