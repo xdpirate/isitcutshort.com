@@ -27,11 +27,12 @@ If a show fulfills any of these criteria, you can request it to be included:
     - A reference to the secondary content is required in `extraInfo`.
 
 ## Shows *not* viable for inclusion
-Please don't request any shows that:
+Please don't request the following types of shows:
 
-- Ran from beginning to end normally and didn't end on a cliffhanger
-- Is currently running with none of the above criteria fulfilled
-- Non-fiction shows (news shows, magazines, etc.)
+- Shows that ran from beginning to end normally and didn't end on a cliffhanger
+- Shows currently running with none of the above criteria fulfilled
+- Non-fiction shows (news shows, magazines, game shows, etc.)
+- Anthological shows with no coherent story from one episode to another (sketch shows, shows like Black Mirror, The Twilight Zone)
 
 The point of the site is to list shows that have, or have had, trouble wrapping up their storylines, or have more content wrapping it up outside the show itself.
 
@@ -88,6 +89,8 @@ I've included some tools in the repo that will make working with the data faster
 * In [`tools/JSONify.html`](https://github.com/xdpirate/isitcutshort.com/blob/main/tools/JSONify.html), you'll find a helpful JS tool that will convert a newline-separated list of show names into the correct data structures used by IICS.
 
 * In [`tools/Quicksearch.html`](https://github.com/xdpirate/isitcutshort.com/blob/main/tools/Quicksearch.html), you'll find a helpful JS tool that will let you provide a newline-separated list of show names and open a bunch of new tabs to search for those shows on Wikipedia to verify details.
+
+* In [`tools/Wikipedia_EZ_IMDb_ID.user.js`](https://github.com/xdpirate/isitcutshort.com/blob/main/tools/Wikipedia_EZ_IMDb_ID.user.js), you'll find a browser userscript that puts any found IMDb IDs on the top of the Wikipedia article, right below the title of the page, for easy copying. Use it with [Tampermonkey](https://tampermonkey.net/).
 
 ## Compression
 Since 2023-03-17, IICS uses LZMA compression on the data file to reduce loading times and bandwidth usage. If you wish to replicate the compression in your fork, use the following pre-commit hook:

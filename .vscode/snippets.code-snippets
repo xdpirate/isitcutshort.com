@@ -27,7 +27,7 @@
 		"description": "Insert a new short data.json entry",
 		"body": [
 			",",
-			"\"Show (2019)\": {",
+			"\"$0Show (2019)\": {",
 			"\t\"imdbID\": \"12345678\",",
 			"\t\"isCutShort\": \"1\",",
 			"\t\"hasCliffhanger\": \"-1\"",
@@ -39,7 +39,7 @@
 		"description": "Insert a new long data.json entry",
 		"body": [
 			",",
-			"\"Show (2019)\": {",
+			"\"$0Show (2019)\": {",
 			"\t\"imdbID\": \"12345678\",",
 			"\t\"isCutShort\": \"1\",",
 			"\t\"hasCliffhanger\": \"-1\",",
@@ -57,7 +57,7 @@
 		"body": [
 			",",
 			"\"extraInfo\": {",
-			"\t\"content\": \"Content\",",
+			"\t\"content\": \"$0Content\",",
 			"\t\"source\": \"Wikipedia\",",
 			"\t\"url\": \"replaceme\"",
 			"}",
