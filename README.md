@@ -96,6 +96,8 @@ Since 2023-03-17, IICS uses LZMA compression on the data file to reduce loading 
     < data.json lzma -9 > data.json.lzma
     git add data.json.lzma
 
+The `lzma` command is provided by the `xz-utils` package, and is preinstalled on most distros.
+
 ## License for data.json
 The data file (data.json) is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). In short, this means you're allowed to reuse the data elsewhere, as long as you attribute this project, don't use it in a commercial capacity, and share it under the same license.
 
