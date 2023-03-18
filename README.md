@@ -62,7 +62,7 @@ The sub-object `extraInfo` is optional, so an entry can be as simple as:
 
 - The object key should have the name and starting year of the show, including any articles in the title (the, a, an) at the start. The data will be sorted ignoring the articles by the page script.
 
-- `imdbID` (required) - The IMDb ID for the show. You can find this in the IMDb URL. Do not include the `tt` at the start of the ID. There are a couple of tools provided to extract this more efficiently, see the *"Working with the data" section.
+- `imdbID` (required) - The IMDb ID for the show. You can find this in the IMDb URL. Do not include the `tt` at the start of the ID. There are a couple of tools provided to extract this more efficiently, see the *"Working with the data"* section.
 
 - `isCutShort` (required) - Whether the TV show was cut short (permanently cancelled). Takes `0` (false) and `1` (true) as values .
 
