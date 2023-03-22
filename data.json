@@ -62,7 +62,7 @@
     "Pushing Daisies (2007)": {
         "imdbID": "0925266",
         "isCutShort": 1,
-        "hasCliffhanger": 1
+        "hasCliffhanger": 0
     },
     "Pitch (2016)": {
         "imdbID": "5500158",
@@ -143,7 +143,7 @@
     "Quantum Leap (1989)": {
         "imdbID": "0096684",
         "isCutShort": 1,
-        "hasCliffhanger": 1,
+        "hasCliffhanger": 0,
         "extraInfo": {
             "content": "A few years after the airing of the finale, a script for an alternate ending was leaked on the internet.",
             "source": "Wikipedia",
@@ -2410,7 +2410,7 @@
     "The Amazing World of Gumball (2011)": {
         "imdbID": "1942683",
         "isCutShort": "1",
-        "hasCliffhanger": "-1"
+        "hasCliffhanger": "1"
     },
     "The Code (2019)": {
         "imdbID": "7985660",
@@ -2961,5 +2961,15 @@
         "imdbID": "4168956",
         "isCutShort": "1",
         "hasCliffhanger": "-1"
+    },
+    "The Nevers (2021)": {
+        "imdbID": "8697870",
+        "isCutShort": "1",
+        "hasCliffhanger": "-1",
+        "extraInfo": {
+            "content": "The series was canceled after half of the first season was released. The remaining episodes are available on the Tubi streaming service.",
+            "source": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/The_Nevers#Cancellation"
+        }
     }
 }
