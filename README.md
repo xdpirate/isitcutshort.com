@@ -43,8 +43,8 @@ The layout of each object is as follows:
 
     "Show Name (2007)": {
         "imdbID": "1234567",
-        "isCutShort": 1,
-        "hasCliffhanger": 1,
+        "isCutShort": "1",
+        "hasCliffhanger": "1",
         "extraInfo": {
             "content": "Ending was wrapped in the movie Show Name 2: Electric Boogaloo.",
             "source": "Wikipedia",
@@ -56,8 +56,8 @@ The sub-object `extraInfo` is optional, so an entry can be as simple as:
 
     "Show Name (2007)": {
         "imdbID": "1234567",
-        "isCutShort": 1,
-        "hasCliffhanger": 0
+        "isCutShort": "1",
+        "hasCliffhanger": "0"
     }
 
 - The object key should have the name and starting year of the show, including any articles in the title (the, a, an) at the start. The data will be sorted ignoring the articles by the page script.

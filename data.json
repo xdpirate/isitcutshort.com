@@ -1,13 +1,13 @@
 {
     "The OA (2016)": {
         "imdbID": "4635282",
-        "isCutShort": 1,
+        "isCutShort": "1",
         "hasCliffhanger": 1
     },
     "Revolution (2012)": {
         "imdbID": "2070791",
-        "isCutShort": 1,
-        "hasCliffhanger": 1,
+        "isCutShort": "1",
+        "hasCliffhanger": "1",
         "extraInfo": {
             "content": "The story was wrapped up in a four-part comic book series in 2015.",
             "source": "Wikipedia",
@@ -16,8 +16,8 @@
     },
     "My Name is Earl (2005)": {
         "imdbID": "0460091",
-        "isCutShort": 1,
-        "hasCliffhanger": 1,
+        "isCutShort": "1",
+        "hasCliffhanger": "1",
         "extraInfo": {
             "content": "The series storyline is rounded out in the pilot episode of Greg Garcia's next sitcom Raising Hope.",
             "source": "Wikipedia",
@@ -26,33 +26,33 @@
     },
     "Mork & Mindy (1978)": {
         "imdbID": "0077053",
-        "isCutShort": 0,
+        "isCutShort": "0",
         "hasCliffhanger": 1
     },
     "Hannibal (2013)": {
         "imdbID": "2243973",
-        "isCutShort": 1,
+        "isCutShort": "1",
         "hasCliffhanger": 1
     },
     "Lois & Clark: The New Adventures of Superman (1993)": {
         "imdbID": "0106057",
-        "isCutShort": 1,
+        "isCutShort": "1",
         "hasCliffhanger": 1
     },
     "Star (2016)": {
         "imdbID": "4941240",
-        "isCutShort": 1,
+        "isCutShort": "1",
         "hasCliffhanger": 1
     },
     "Moesha (1996)": {
         "imdbID": "0115275",
-        "isCutShort": 1,
+        "isCutShort": "1",
         "hasCliffhanger": 1
     },
     "Futurama (1999)": {
         "imdbID": "0149460",
-        "isCutShort": 0,
-        "hasCliffhanger": 0,
+        "isCutShort": "0",
+        "hasCliffhanger": "0",
         "extraInfo": {
             "content": "On February 9, 2022, Hulu revived the series with a 20-episode order set to premiere in 2023.",
             "source": "Wikipedia",
@@ -61,18 +61,18 @@
     },
     "Pushing Daisies (2007)": {
         "imdbID": "0925266",
-        "isCutShort": 1,
+        "isCutShort": "1",
         "hasCliffhanger": 0
     },
     "Pitch (2016)": {
         "imdbID": "5500158",
-        "isCutShort": 1,
+        "isCutShort": "1",
         "hasCliffhanger": 1
     },
     "The Last Man on Earth (2015)": {
         "imdbID": "3230454",
-        "isCutShort": 1,
-        "hasCliffhanger": 1,
+        "isCutShort": "1",
+        "hasCliffhanger": "1",
         "extraInfo": {
             "content": "The creator revealed the planned ending for the show after it was cancelled.",
             "source": "IndieWire",
@@ -81,8 +81,8 @@
     },
     "The 4400 (2004)": {
         "imdbID": "0389564",
-        "isCutShort": 1,
-        "hasCliffhanger": 1,
+        "isCutShort": "1",
+        "hasCliffhanger": "1",
         "extraInfo": {
             "content": "The show was rebooted in 2021 under the name \"4400\".",
             "source": "IMDb",
@@ -91,8 +91,8 @@
     },
     "The Expanse (2015)": {
         "imdbID": "3230854",
-        "isCutShort": 0,
-        "hasCliffhanger": 0,
+        "isCutShort": "0",
+        "hasCliffhanger": "0",
         "extraInfo": {
             "content": "The show was originally cancelled after the third season, but was successfully revived with the help of a petition gathering over 100,000 signatures.",
             "source": "Wikipedia",
@@ -101,8 +101,8 @@
     },
     "Seinfeld (1989)": {
         "imdbID": "0098904",
-        "isCutShort": 0,
-        "hasCliffhanger": 0,
+        "isCutShort": "0",
+        "hasCliffhanger": "0",
         "extraInfo": {
             "content": "The finale was very poorly received at the time it was aired, which is a running joke throughout <i>Curb Your Enthusiasm</i>. A fictional reunion of <i>Seinfeld</i> takes place inside of <i>Curb Your Enthusiasm</i> in season 7, episode 10.",
             "source": "Wikipedia",
@@ -112,38 +112,38 @@
     ,  
     "Chuck (2007)": {
         "imdbID": "0934814",
-        "isCutShort": 0,
+        "isCutShort": "0",
         "hasCliffhanger": 1
     }
     ,  
     "The Event (2010)": {
         "imdbID": "1582459",
-        "isCutShort": 1,
+        "isCutShort": "1",
         "hasCliffhanger": 1
     }
     ,  
     "Flashforward (2009)": {
         "imdbID": "1441135",
-        "isCutShort": 1,
+        "isCutShort": "1",
         "hasCliffhanger": 1
     }
     ,  
     "Alphas (2011)": {
         "imdbID": "1183865",
-        "isCutShort": 1,
+        "isCutShort": "1",
         "hasCliffhanger": 1
     }
     ,  
     "Southland (2009)": {
         "imdbID": "1299368",
-        "isCutShort": 1,
+        "isCutShort": "1",
         "hasCliffhanger": 1
     }
     ,  
     "Quantum Leap (1989)": {
         "imdbID": "0096684",
-        "isCutShort": 1,
-        "hasCliffhanger": 0,
+        "isCutShort": "1",
+        "hasCliffhanger": "0",
         "extraInfo": {
             "content": "A few years after the airing of the finale, a script for an alternate ending was leaked on the internet.",
             "source": "Wikipedia",
@@ -153,18 +153,18 @@
     ,  
     "Terminator: The Sarah Connor Chronicles (2008)": {
         "imdbID": "0851851",
-        "isCutShort": 1,
+        "isCutShort": "1",
         "hasCliffhanger": 1
     },
     "My So-Called Life (1994)": {
         "imdbID": "0108872",
-        "isCutShort": 1,
+        "isCutShort": "1",
         "hasCliffhanger": 1
     },
     "Angel (1999)": {
         "imdbID": "0162065",
-        "isCutShort": 1,
-        "hasCliffhanger": 1,
+        "isCutShort": "1",
+        "hasCliffhanger": "1",
         "extraInfo": {
             "content": "Although fans have often considered the ending to be something of a cliffhanger, creator Joss Whedon says that isn't the case.",
             "source": "CBR",
@@ -173,18 +173,18 @@
     },
     "The Sopranos (1999)": {
         "imdbID": "0141842",
-        "isCutShort": 0,
+        "isCutShort": "0",
         "hasCliffhanger": 1
     },
     "Reaper (2007)": {
         "imdbID": "0955322",
-        "isCutShort": 1,
+        "isCutShort": "1",
         "hasCliffhanger": 1
     },
     "Deadwood (2004)": {
         "imdbID": "0348914",
-        "isCutShort": 0,
-        "hasCliffhanger": 1,
+        "isCutShort": "0",
+        "hasCliffhanger": "1",
         "extraInfo": {
             "content": "The show itself ends on a cliffhanger, but is followed by a movie.",
             "source": "Wikipedia",
@@ -193,8 +193,8 @@
     },
     "ALF (1986)": {
         "imdbID": "0090390",
-        "isCutShort": 0,
-        "hasCliffhanger": 1,
+        "isCutShort": "0",
+        "hasCliffhanger": "1",
         "extraInfo": {
             "content": "The show itself ends on a cliffhanger, but is followed by a movie.",
             "source": "Wikipedia",
@@ -203,18 +203,18 @@
     },
     "Invasion (2005)": {
         "imdbID": "0460651",
-        "isCutShort": 1,
+        "isCutShort": "1",
         "hasCliffhanger": 1
     },
     "The Family (2016)": {
         "imdbID": "4428038",
-        "isCutShort": 1,
+        "isCutShort": "1",
         "hasCliffhanger": 1
     },
     "No Tomorrow (2016)": {
         "imdbID": "5595688",
-        "isCutShort": 1,
-        "hasCliffhanger": 1,
+        "isCutShort": "1",
+        "hasCliffhanger": "1",
         "extraInfo": {
             "content": "The network released an epilogue to the series to provide closure after its cancellation.",
             "source": "Wikipedia",
@@ -223,8 +223,8 @@
     },
     "Bored to Death (2009)": {
         "imdbID": "1255913",
-        "isCutShort": 1,
-        "hasCliffhanger": 1,
+        "isCutShort": "1",
+        "hasCliffhanger": "1",
         "extraInfo": {
             "content": "A movie was planned, but was ultimately cancelled. In an interview in April 2018 the creator said that he was considering rebooting the series as a book.",
             "source": "Wikipedia",
@@ -233,8 +233,8 @@
     },
     "Soap (1977)": {
         "imdbID": "0075584",
-        "isCutShort": 1,
-        "hasCliffhanger": 1,
+        "isCutShort": "1",
+        "hasCliffhanger": "1",
         "extraInfo": {
             "content": "Some extra detail is given in an episode of the show \"Benson\".",
             "source": "Wikipedia",
@@ -243,23 +243,23 @@
     },
     "Dallas (1978)": {
         "imdbID": "0077000",
-        "isCutShort": 0,
-        "hasCliffhanger": 1,
+        "isCutShort": "0",
+        "hasCliffhanger": "1",
         "extraInfo": {
-            "content": "The cliffhanger of the original show is resolved in a follow-up movie. There is also a three-season continuation, which    premiered in 2012.",
+            "content": "The cliffhanger of the original show is resolved in a follow-up movie. There is also a three-season continuation, which premiered in 2012.",
             "source": "Wikipedia",
             "url": "https://en.wikipedia.org/wiki/Dallas_(1978_TV_series)"
         }
     },
     "StartUp (2016)": {
         "imdbID": "5028002",
-        "isCutShort": 0,
+        "isCutShort": "0",
         "hasCliffhanger": 1
     },
     "Scrubs (2001)": {
         "imdbID": "0285403",
-        "isCutShort": 0,
-        "hasCliffhanger": 0,
+        "isCutShort": "0",
+        "hasCliffhanger": "0",
         "extraInfo": {
             "content": "Although <i>Scrubs</i> received a total of nine seasons, most fans consider season 8 to be the true ending to the show.  Season 9 takes place at a different location and only three of the seven main characters from the first eight seasons remained as regular main characters.",
             "source": "Wikipedia",
@@ -268,13 +268,13 @@
     },
     "I Am Not Okay with This (2020)": {
         "imdbID": "9446688",
-        "isCutShort": 1,
+        "isCutShort": "1",
         "hasCliffhanger": 1
     },
     "Heroes (2006)": {
         "imdbID": "0813715",
-        "isCutShort": 1,
-        "hasCliffhanger": 1,
+        "isCutShort": "1",
+        "hasCliffhanger": "1",
         "extraInfo": {
             "content": "The show has a spinoff/sequel miniseries called <i>Heroes Reborn</i>. It does not resolve the cliffhanger ending to <i>Heroes</i>, however.",
             "source": "Wikipedia",
@@ -283,13 +283,13 @@
     },
     "Finding Carter (2014)": {
         "imdbID": "3186138",
-        "isCutShort": 1,
+        "isCutShort": "1",
         "hasCliffhanger": 1
     },
     "Kyle XY (2006)": {
         "imdbID": "0756509",
-        "isCutShort": 1,
-        "hasCliffhanger": 1,
+        "isCutShort": "1",
+        "hasCliffhanger": "1",
         "extraInfo": {
             "content": "The season three DVD contains a \"wrap-up\" called <i>Kyle XY: Future Revealed</i>, with the writers and actors explaining their plans for future episodes and what would have ultimately happened in the series ending.",
             "source": "Wikipedia",
@@ -298,18 +298,18 @@
     },
     "Joan of Arcadia (2003)": {
         "imdbID": "0367345",
-        "isCutShort": 1,
+        "isCutShort": "1",
         "hasCliffhanger": 1
     },
     "The Society (2019)": {
         "imdbID": "8778064",
-        "isCutShort": 1,
+        "isCutShort": "1",
         "hasCliffhanger": 1
     },
     "Freaks and Geeks (1999)": {
         "imdbID": "8778064",
-        "isCutShort": 1,
-        "hasCliffhanger": 1,
+        "isCutShort": "1",
+        "hasCliffhanger": "1",
         "extraInfo": {
             "content": "The creator of the show revealed information on what would have happened after the first season in an interview.",
             "source": "Vanity Fair",
@@ -318,23 +318,23 @@
     },
     "Teenage Bounty Hunters (2020)": {
         "imdbID": "10584608",
-        "isCutShort": 1,
+        "isCutShort": "1",
         "hasCliffhanger": 1
     },
     "GLOW (2017)": {
         "imdbID": "5770786",
-        "isCutShort": 1,
+        "isCutShort": "1",
         "hasCliffhanger": 1
     },
     "The Secret Circle (2011)": {
         "imdbID": "1837654",
-        "isCutShort": 1,
+        "isCutShort": "1",
         "hasCliffhanger": 1
     },
     "The Get Down (2016)": {
         "imdbID": "4592410",
-        "isCutShort": 1,
-        "hasCliffhanger": 1,
+        "isCutShort": "1",
+        "hasCliffhanger": "1",
         "extraInfo": {
             "content": "The cast revealed in an interview what could've happened in season 2.",
             "source": "IndieWire",
@@ -343,8 +343,8 @@
     },
     "Sweet/Vicious (2016)": {
         "imdbID": "5012644",
-        "isCutShort": 1,
-        "hasCliffhanger": 1,
+        "isCutShort": "1",
+        "hasCliffhanger": "1",
         "extraInfo": {
             "content": "The creator of the show created a comic book follow-up to the series.",
             "source": "Black Mask Studios",
@@ -353,8 +353,8 @@
     },
     "Manifest (2018)": {
         "imdbID": "8421350",
-        "isCutShort": 1,
-        "hasCliffhanger": 0,
+        "isCutShort": "1",
+        "hasCliffhanger": "0",
         "extraInfo": {
             "content": "In June 2021, the series was canceled by NBC after three seasons. The series was added to Netflix shortly before it was canceled and immediately topped the viewing charts, persuading Netflix to renew Manifest for a fourth and final season consisting of twenty episodes, with part one premiering on November 4, 2022.",
             "source": "Wikipedia",
@@ -363,13 +363,13 @@
     },
     "Prodigal Son (2019)": {
         "imdbID": "10327354",
-        "isCutShort": 1,
+        "isCutShort": "1",
         "hasCliffhanger": 1
     },
     "Zoey's Extraordinary Playlist (2020)": {
         "imdbID": "10314462",
-        "isCutShort": 1,
-        "hasCliffhanger": 1,
+        "isCutShort": "1",
+        "hasCliffhanger": "1",
         "extraInfo": {
             "content": "A TV movie called <i>Zoey's Extraordinary Christmas</i> was made by The Roku Channel and premiered on December 1st, 2021.",
             "source": "Wikipedia",
@@ -378,8 +378,8 @@
     },
     "Frequency (2016)": {
         "imdbID": "5531470",
-        "isCutShort": 1,
-        "hasCliffhanger": 1,
+        "isCutShort": "1",
+        "hasCliffhanger": "1",
         "extraInfo": {
             "content": "An epilogue was release to wrap up some of the story.",
             "source": "Television Obscurities",
@@ -388,38 +388,38 @@
     },
     "The Whispers (2015)": {
         "imdbID": "3487410",
-        "isCutShort": 1,
+        "isCutShort": "1",
         "hasCliffhanger": 1
     },
     "Sliders (1995)": {
         "imdbID": "0112167",
-        "isCutShort": 1,
+        "isCutShort": "1",
         "hasCliffhanger": 1
     },
     "Las Vegas (2003)": {
         "imdbID": "0112167",
-        "isCutShort": 1,
+        "isCutShort": "1",
         "hasCliffhanger": 1
     },
     "The Dead Zone (2002)": {
         "imdbID": "0281432",
-        "isCutShort": 1,
+        "isCutShort": "1",
         "hasCliffhanger": 1
     },
     "Agent Carter (2015)": {
         "imdbID": "3475734",
-        "isCutShort": 1,
+        "isCutShort": "1",
         "hasCliffhanger": 1
     },
     "Popular (1999)": {
         "imdbID": "0202748",
-        "isCutShort": 1,
+        "isCutShort": "1",
         "hasCliffhanger": 1
     },
     "Clone High (2002)": {
         "imdbID": "0305011",
-        "isCutShort": 1,
-        "hasCliffhanger": 1,
+        "isCutShort": "1",
+        "hasCliffhanger": "1",
         "extraInfo": {
             "content": "A reboot series was announced in 2020.",
             "source": "Deadline",
@@ -428,38 +428,38 @@
     },
     "Terra Nova (2011)": {
         "imdbID": "1641349",
-        "isCutShort": 1,
+        "isCutShort": "1",
         "hasCliffhanger": 1
     },
     "Friday the 13th: The Series (1987)": {
         "imdbID": "1641349",
-        "isCutShort": 1,
+        "isCutShort": "1",
         "hasCliffhanger": 1
     },
     "Forever Knight (1992)": {
         "imdbID": "0103417",
-        "isCutShort": 1,
+        "isCutShort": "1",
         "hasCliffhanger": 1
     },
     "VR.5 (1995)": {
         "imdbID": "0112209",
-        "isCutShort": 1,
+        "isCutShort": "1",
         "hasCliffhanger": 1
     },
     "Space: Above and Beyond (1995)": {
         "imdbID": "0112173",
-        "isCutShort": 1,
+        "isCutShort": "1",
         "hasCliffhanger": 1
     },
     "NewsRadio (1995)": {
         "imdbID": "0112095",
-        "isCutShort": 1,
+        "isCutShort": "1",
         "hasCliffhanger": 1
     },
     "Dark Angel (2000)": {
         "imdbID": "0204993",
-        "isCutShort": 1,
-        "hasCliffhanger": 1,
+        "isCutShort": "1",
+        "hasCliffhanger": "1",
         "extraInfo": {
             "content": "Three original novels written by Max Allan Collins expand upon the Dark Angel television series, with two picking up directly where the series ended, and another serving as a prequel.",
             "source": "Wikipedia",
@@ -468,43 +468,43 @@
     },
     "John Doe (2002)": {
         "imdbID": "0320038",
-        "isCutShort": 1,
+        "isCutShort": "1",
         "hasCliffhanger": 1
     },
     "Carnivale (Carnivàle) (2003)": {
         "imdbID": "0319969",
-        "isCutShort": 1,
+        "isCutShort": "1",
         "hasCliffhanger": 1
     },
     "Reunion (2005)": {
         "imdbID": "0460672",
-        "isCutShort": 1,
+        "isCutShort": "1",
         "hasCliffhanger": 1
     },
     "Terriers (2010)": {
         "imdbID": "1493239",
-        "isCutShort": 1,
+        "isCutShort": "1",
         "hasCliffhanger": 1
     },
     "The River (2012)": {
         "imdbID": "1836195",
-        "isCutShort": 1,
+        "isCutShort": "1",
         "hasCliffhanger": 1
     },
     "Constantine (2014)": {
         "imdbID": "3489184",
-        "isCutShort": 1,
+        "isCutShort": "1",
         "hasCliffhanger": 1
     },
     "Off the Map (2011)": {
         "imdbID": "1587694",
-        "isCutShort": 1,
+        "isCutShort": "1",
         "hasCliffhanger": 1
     },
     "Sense8 (2015)": {
         "imdbID": "2431438",
-        "isCutShort": 1,
-        "hasCliffhanger": 0,
+        "isCutShort": "1",
+        "hasCliffhanger": "0",
         "extraInfo": {
             "content": "In response to criticism of the cancellation of the show after the second season and its cliffhanger ending, a two-and-a-half-hour series finale was produced and released.",
             "source": "Wikipedia",
@@ -514,28 +514,28 @@
     },
     "Everything Sucks! (2018)": {
         "imdbID": "7078710",
-        "isCutShort": 1,
+        "isCutShort": "1",
         "hasCliffhanger": 1
     },
     "Colony (2016)": {
         "imdbID": "4209256",
-        "isCutShort": 1,
+        "isCutShort": "1",
         "hasCliffhanger": 1
     },
     "Better Off Ted (2009)": {
         "imdbID": "1235547",
-        "isCutShort": 1,
+        "isCutShort": "1",
         "hasCliffhanger": 0
     },
     "The Punisher (2017)": {
         "imdbID": "5675620",
-        "isCutShort": 1,
+        "isCutShort": "1",
         "hasCliffhanger": 1
     },
     "Westworld (2016)": {
         "imdbID": "0475784",
-        "isCutShort": 1,
-        "hasCliffhanger": 0,
+        "isCutShort": "1",
+        "hasCliffhanger": "0",
         "extraInfo": {
             "content": "Westworld was intended to end with its fifth season, according to statements from its two showrunners, Jonathan Nolan and Lisa Joy. It was cancelled just a few months after its fourth season concluded.",
             "source": "Ars Technica",
@@ -544,8 +544,8 @@
     },
     "Firefly (2002)": {
         "imdbID": "0303461",
-        "isCutShort": 1,
-        "hasCliffhanger": 0,
+        "isCutShort": "1",
+        "hasCliffhanger": "0",
         "extraInfo": {
             "content": "Firefly was cancelled after 11 of 14 produced episodes were aired, but the post-airing success of the show led writer and director Whedon and Universal Pictures to produce Serenity, a 2005 film which continues the story from the series.",
             "source": "Wikipedia",
@@ -554,8 +554,8 @@
     },
     "Inside Job (2021)": {
         "imdbID": "10231312",
-        "isCutShort": 1,
-        "hasCliffhanger": 1,
+        "isCutShort": "1",
+        "hasCliffhanger": "1",
         "extraInfo": {
             "content": "Netflix renewed Inside Job for a second season in June 2022; however, Takeuchi announced in January 2023 that Netflix had cancelled the series, including the second season. There is an active <a href=\"https://www.change.org/p/save-inside-job-475c1e2a-0b23-4de2-a8af-b796531ebf43\">petition</a> to save the show.",
             "source": "Wikipedia",
@@ -564,38 +564,38 @@
     },
     "Exosquad (1993)": {
         "imdbID": "0106842",
-        "isCutShort": 1,
+        "isCutShort": "1",
         "hasCliffhanger": 1
     },
     "Surface (2005)": {
         "imdbID": "0452718",
-        "isCutShort": 1,
+        "isCutShort": "1",
         "hasCliffhanger": 1
     },
     "Stargate Universe (2009)": {
         "imdbID": "1286039",
-        "isCutShort": 1,
+        "isCutShort": "1",
         "hasCliffhanger": 1
     },
     "1899 (2022)": {
         "imdbID": "9319668",
-        "isCutShort": 1,
+        "isCutShort": "1",
         "hasCliffhanger": 1
     },
     "Humans (2015)": {
         "imdbID": "4122068",
-        "isCutShort": 1,
+        "isCutShort": "1",
         "hasCliffhanger": 1
     },
     "Utopia (2013)": {
         "imdbID": "2384811",
-        "isCutShort": 1,
+        "isCutShort": "1",
         "hasCliffhanger": 1
     },
     "Timeless (2016)": {
         "imdbID": "2384811",
-        "isCutShort": 1,
-        "hasCliffhanger": 0,
+        "isCutShort": "1",
+        "hasCliffhanger": "0",
         "extraInfo": {
             "content": "Although NBC canceled the series after one season, the series was renewed three days later following negotiations with Sony Pictures Television. The ten-episode second season premiered on March 11, 2018, and ran until NBC canceled the series again in June 2018. One month later, NBC ordered a two-part finale to conclude the series, which aired on December 20, 2018.",
             "source": "Wikipedia",
@@ -604,8 +604,8 @@
     },
     "Sledge Hammer! (1986)": {
         "imdbID": "0090525",
-        "isCutShort": 1,
-        "hasCliffhanger": 1,
+        "isCutShort": "1",
+        "hasCliffhanger": "1",
         "extraInfo": {
             "content": "Because ABC intended to cancel the series, the last episode of the first season ends with an intentional cliffhanger. This episode received much better than expected ratings; ABC changed its mind and renewed the show for a second season, which was made as a prequel, keeping the cliffhanger ending intact chronologically.",
             "source": "Wikipedia",
@@ -614,28 +614,28 @@
     },
     "Merlin (2008)": {
         "imdbID": "1199099",
-        "isCutShort": 0,
+        "isCutShort": "0",
         "hasCliffhanger": 1
     },
     "Carnival Row (2019)": {
         "imdbID": "0489974",
-        "isCutShort": 1,
+        "isCutShort": "1",
         "hasCliffhanger": 0
     },
     "Avenue 5 (2020)": {
         "imdbID": "10234362",
-        "isCutShort": 1,
+        "isCutShort": "1",
         "hasCliffhanger": 1
     },
     "ReBoot: The Guardian Code (2018)": {
         "imdbID": "6849940",
-        "isCutShort": 1,
+        "isCutShort": "1",
         "hasCliffhanger": 1
     },
     "Ray Donovan (2013)": {
         "imdbID": "2249007",
-        "isCutShort": 1,
-        "hasCliffhanger": 0,
+        "isCutShort": "1",
+        "hasCliffhanger": "0",
         "extraInfo": {
             "content": "In February 2020, the series was cancelled after seven seasons. The show's storyline concluded with the feature-length Ray Donovan: The Movie, which premiered on January 14, 2022, on Showtime.",
             "source": "Wikipedia",
@@ -644,53 +644,53 @@
     },
     "Santa Clarita Diet (2017)": {
         "imdbID": "5580540",
-        "isCutShort": 1,
+        "isCutShort": "1",
         "hasCliffhanger": 1
     },
     "Counterpart (2017)": {
         "imdbID": "4643084",
-        "isCutShort": 1,
+        "isCutShort": "1",
         "hasCliffhanger": 0
     },
     "Mindhunter (2017)": {
         "imdbID": "5290382",
-        "isCutShort": 1,
+        "isCutShort": "1",
         "hasCliffhanger": 0
     },
     "Devious Maids (2013)": {
         "imdbID": "2226342",
-        "isCutShort": 1,
+        "isCutShort": "1",
         "hasCliffhanger": 1
     },
     "Dollhouse (2009)": {
         "imdbID": "1135300",
-        "isCutShort": 1,
+        "isCutShort": "1",
         "hasCliffhanger": 0
     },
     "Raised by Wolves (2020)": {
         "imdbID": "9170108",
-        "isCutShort": 1,
+        "isCutShort": "1",
         "hasCliffhanger": 1
     },
     "Paper Girls (2022)": {
         "imdbID": "10623646",
-        "isCutShort": 1,
+        "isCutShort": "1",
         "hasCliffhanger": 1
     },
     "Lilyhammer (2012)": {
         "imdbID": "1958961",
-        "isCutShort": 1,
+        "isCutShort": "1",
         "hasCliffhanger": 1
     },
     "Rubicon (2010)": {
         "imdbID": "1389371",
-        "isCutShort": 1,
+        "isCutShort": "1",
         "hasCliffhanger": 1
     },
     "Prison Break (2005)": {
         "imdbID": "0455275",
-        "isCutShort": 1,
-        "hasCliffhanger": 0,
+        "isCutShort": "1",
+        "hasCliffhanger": "0",
         "extraInfo": {
             "content": "A fifth \"revival\" season premiered on April 4, 2017. In January 2018, Fox confirmed that season 6 was in early development; however, in August 2019, Fox announced that it had no current plans to revive Prison Break.",
             "source": "Wikipedia",
@@ -699,53 +699,53 @@
     },
     "Origin (2018)": {
         "imdbID": "7801780",
-        "isCutShort": 1,
+        "isCutShort": "1",
         "hasCliffhanger": 1
     },
     "The O.C. (2003)": {
         "imdbID": "0362359",
-        "isCutShort": 1,
+        "isCutShort": "1",
         "hasCliffhanger": 0
     },
     "Nurse Jackie (2009)": {
         "imdbID": "1190689",
-        "isCutShort": 0,
+        "isCutShort": "0",
         "hasCliffhanger": 1
     },
     "Living with Yourself (2019)": {
         "imdbID": "8880894",
-        "isCutShort": 0,
+        "isCutShort": "0",
         "hasCliffhanger": 1
     },
     "Harry's Law (2011)": {
         "imdbID": "1582453",
-        "isCutShort": 1,
+        "isCutShort": "1",
         "hasCliffhanger": 0
     },
     "Knight Rider (1982)": {
         "imdbID": "0083437",
-        "isCutShort": 1,
+        "isCutShort": "1",
         "hasCliffhanger": 0
     },
     "Star Trek: Enterprise (2001)": {
         "imdbID": "0244365",
-        "isCutShort": 1,
+        "isCutShort": "1",
         "hasCliffhanger": 0
     },
     "Archive 81 (2022)": {
         "imdbID": "13365348",
-        "isCutShort": 1,
+        "isCutShort": "1",
         "hasCliffhanger": 1
     },
     "Almost Human (2013)": {
         "imdbID": "2654580",
-        "isCutShort": 1,
+        "isCutShort": "1",
         "hasCliffhanger": 0
     },
     "Final Space (2018)": {
         "imdbID": "2654580",
-        "isCutShort": 1,
-        "hasCliffhanger": 1,
+        "isCutShort": "1",
+        "hasCliffhanger": "1",
         "extraInfo": {
             "content": "Adult Swim cancelled the series after three seasons due to the proposed merger of WarnerMedia and Discovery. In September 2022, creator Olan Rogers claimed on Twitter that the series would be written off as a loss for tax purposes by Warner Bros.",
             "source": "Wikipedia",
@@ -754,23 +754,23 @@
     },
     "The Booth at the End (2011)": {
         "imdbID": "1554369",
-        "isCutShort": 1,
+        "isCutShort": "1",
         "hasCliffhanger": 1
     },
     "Dead End: Paranormal Park (2022)": {
         "imdbID": "12642764",
-        "isCutShort": 1,
+        "isCutShort": "1",
         "hasCliffhanger": 1
     },
     "Jessica Jones (2015)": {
         "imdbID": "2357547",
-        "isCutShort": 1,
+        "isCutShort": "1",
         "hasCliffhanger": 0
     },
     "Daredevil (2015)": {
         "imdbID": "3322312",
-        "isCutShort": 1,
-        "hasCliffhanger": 0,
+        "isCutShort": "1",
+        "hasCliffhanger": "0",
         "extraInfo": {
             "content": "On November 29, 2018, Netflix canceled the series after three seasons. A reboot was confirmed to be in development for Disney+ in May of 2022 and is scheduled to premiere in early 2024.",
             "source": "Wikipedia",
@@ -779,8 +779,8 @@
     },
     "Dark Matter (2015)": {
         "imdbID": "4159076",
-        "isCutShort": 1,
-        "hasCliffhanger": 1,
+        "isCutShort": "1",
+        "hasCliffhanger": "1",
         "extraInfo": {
             "content": "Creator Joseph Mallozzi made a series of blog posts detailing what the plans for the final two seasons would have been. <a target=\"_blank\" href=\"https://josephmallozzi.com/2017/12/07/december-7-2017-last-nights-darkgate-highlights/\">[1]</a> <a target=\"_blank\" href=\"https://josephmallozzi.com/2017/12/11/december-11-2017-dark-matter-secrets-revealed/\">[2]</a> <a target=\"_blank\" href=\"https://josephmallozzi.com/2017/12/19/december-19-2017-that-dark-matter-dark-timeline-revealed/\">[3]</a> ",
             "source": "Joseph Mallozzi's Weblog",
@@ -789,78 +789,78 @@
     },
     "A.P. Bio (2018)": {
         "imdbID": "6461726",
-        "isCutShort": 1,
+        "isCutShort": "1",
         "hasCliffhanger": 0
     },
     "Abby's (2019)": {
         "imdbID": "7768346",
-        "isCutShort": 1,
+        "isCutShort": "1",
         "hasCliffhanger": -1
     },
     "Shadowhunters: The Mortal Instruments (2016)": {
         "imdbID": "4145054",
-        "isCutShort": 1,
+        "isCutShort": "1",
         "hasCliffhanger": 0
     },
     "Quantico (2015)": {
         "imdbID": "4428122",
-        "isCutShort": 1,
+        "isCutShort": "1",
         "hasCliffhanger": 0
     },
     "The Shannara Chronicles (2016)": {
         "imdbID": "1051220",
-        "isCutShort": 1,
+        "isCutShort": "1",
         "hasCliffhanger": 1
     },
     "The Tomorrow People (2013)": {
         "imdbID": "2660734",
-        "isCutShort": 1,
+        "isCutShort": "1",
         "hasCliffhanger": 1
     },
     "Limitless (2015)": {
         "imdbID": "4422836",
-        "isCutShort": 1,
+        "isCutShort": "1",
         "hasCliffhanger": 0
     },
     "The Finder (2012)": {
         "imdbID": "1943524",
-        "isCutShort": 1,
+        "isCutShort": "1",
         "hasCliffhanger": 0
     },
     "Deadbeat (2014)": {
         "imdbID": "3147316",
-        "isCutShort": 1,
+        "isCutShort": "1",
         "hasCliffhanger": -1
     },
     "Z Nation (2014)": {
         "imdbID": "3843168",
-        "isCutShort": 1,
+        "isCutShort": "1",
         "hasCliffhanger": 0
     },
     "The Order (2019)": {
         "imdbID": "8295472",
-        "isCutShort": 1,
+        "isCutShort": "1",
         "hasCliffhanger": 1
     },
     "Warrior Nun (2020)": {
         "imdbID": "9059350",
-        "isCutShort": 1,
+        "isCutShort": "1",
         "hasCliffhanger": 0
     },
     "Dirk Gently's Holistic Detective Agency (2016)": {
         "imdbID": "4047038",
-        "isCutShort": 1,
+        "isCutShort": "1",
         "hasCliffhanger": 0
     },
     "Happy (2017)": {
         "imdbID": "2452242",
-        "isCutShort": 1,
+        "isCutShort": "1",
         "hasCliffhanger": 0
     },
     "Midnight Club (2022)": {
         "imdbID": "13444912",
-        "isCutShort": 1,
-        "hasCliffhanger": 1,
+        "isCutShort": "1",
+        "hasCliffhanger": "1",
         "extraInfo": {
             "content": "After the show's cancellation, showrunner Mike Flanagan shared his plans for season 2 on Tumblr.",
             "source": "flanaganfilm on Tumblr",
@@ -869,12 +869,12 @@
     },
     "American Vandal (2017)": {
         "imdbID": "6877772",
-        "isCutShort": 1,
+        "isCutShort": "1",
         "hasCliffhanger": 0
     },
     "Brand New Cherry Flavor (2021)": {
         "imdbID": "11343600",
-        "isCutShort": 0,
+        "isCutShort": "0",
         "hasCliffhanger": 1
     },
     "61st Street (2022)": {
