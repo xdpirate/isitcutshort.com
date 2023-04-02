@@ -2,7 +2,7 @@
     "The OA (2016)": {
         "imdbID": "4635282",
         "isCutShort": "1",
-        "hasCliffhanger": 1
+        "hasCliffhanger": "1"
     },
     "Revolution (2012)": {
         "imdbID": "2070791",
@@ -27,27 +27,27 @@
     "Mork & Mindy (1978)": {
         "imdbID": "0077053",
         "isCutShort": "0",
-        "hasCliffhanger": 1
+        "hasCliffhanger": "1"
     },
     "Hannibal (2013)": {
         "imdbID": "2243973",
         "isCutShort": "1",
-        "hasCliffhanger": 1
+        "hasCliffhanger": "1"
     },
     "Lois & Clark: The New Adventures of Superman (1993)": {
         "imdbID": "0106057",
         "isCutShort": "1",
-        "hasCliffhanger": 1
+        "hasCliffhanger": "1"
     },
     "Star (2016)": {
         "imdbID": "4941240",
         "isCutShort": "1",
-        "hasCliffhanger": 1
+        "hasCliffhanger": "1"
     },
     "Moesha (1996)": {
         "imdbID": "0115275",
         "isCutShort": "1",
-        "hasCliffhanger": 1
+        "hasCliffhanger": "1"
     },
     "Futurama (1999)": {
         "imdbID": "0149460",
@@ -62,12 +62,12 @@
     "Pushing Daisies (2007)": {
         "imdbID": "0925266",
         "isCutShort": "1",
-        "hasCliffhanger": 0
+        "hasCliffhanger": "0"
     },
     "Pitch (2016)": {
         "imdbID": "5500158",
         "isCutShort": "1",
-        "hasCliffhanger": 1
+        "hasCliffhanger": "1"
     },
     "The Last Man on Earth (2015)": {
         "imdbID": "3230454",
@@ -113,31 +113,31 @@
     "Chuck (2007)": {
         "imdbID": "0934814",
         "isCutShort": "0",
-        "hasCliffhanger": 1
+        "hasCliffhanger": "1"
     }
     ,  
     "The Event (2010)": {
         "imdbID": "1582459",
         "isCutShort": "1",
-        "hasCliffhanger": 1
+        "hasCliffhanger": "1"
     }
     ,  
     "Flashforward (2009)": {
         "imdbID": "1441135",
         "isCutShort": "1",
-        "hasCliffhanger": 1
+        "hasCliffhanger": "1"
     }
     ,  
     "Alphas (2011)": {
         "imdbID": "1183865",
         "isCutShort": "1",
-        "hasCliffhanger": 1
+        "hasCliffhanger": "1"
     }
     ,  
     "Southland (2009)": {
         "imdbID": "1299368",
         "isCutShort": "1",
-        "hasCliffhanger": 1
+        "hasCliffhanger": "1"
     }
     ,  
     "Quantum Leap (1989)": {
@@ -154,12 +154,12 @@
     "Terminator: The Sarah Connor Chronicles (2008)": {
         "imdbID": "0851851",
         "isCutShort": "1",
-        "hasCliffhanger": 1
+        "hasCliffhanger": "1"
     },
     "My So-Called Life (1994)": {
         "imdbID": "0108872",
         "isCutShort": "1",
-        "hasCliffhanger": 1
+        "hasCliffhanger": "1"
     },
     "Angel (1999)": {
         "imdbID": "0162065",
@@ -174,12 +174,12 @@
     "The Sopranos (1999)": {
         "imdbID": "0141842",
         "isCutShort": "0",
-        "hasCliffhanger": 1
+        "hasCliffhanger": "1"
     },
     "Reaper (2007)": {
         "imdbID": "0955322",
         "isCutShort": "1",
-        "hasCliffhanger": 1
+        "hasCliffhanger": "1"
     },
     "Deadwood (2004)": {
         "imdbID": "0348914",
@@ -204,12 +204,12 @@
     "Invasion (2005)": {
         "imdbID": "0460651",
         "isCutShort": "1",
-        "hasCliffhanger": 1
+        "hasCliffhanger": "1"
     },
     "The Family (2016)": {
         "imdbID": "4428038",
         "isCutShort": "1",
-        "hasCliffhanger": 1
+        "hasCliffhanger": "1"
     },
     "No Tomorrow (2016)": {
         "imdbID": "5595688",
@@ -254,7 +254,7 @@
     "StartUp (2016)": {
         "imdbID": "5028002",
         "isCutShort": "0",
-        "hasCliffhanger": 1
+        "hasCliffhanger": "1"
     },
     "Scrubs (2001)": {
         "imdbID": "0285403",
@@ -269,7 +269,7 @@
     "I Am Not Okay with This (2020)": {
         "imdbID": "9446688",
         "isCutShort": "1",
-        "hasCliffhanger": 1
+        "hasCliffhanger": "1"
     },
     "Heroes (2006)": {
         "imdbID": "0813715",
@@ -284,7 +284,7 @@
     "Finding Carter (2014)": {
         "imdbID": "3186138",
         "isCutShort": "1",
-        "hasCliffhanger": 1
+        "hasCliffhanger": "1"
     },
     "Kyle XY (2006)": {
         "imdbID": "0756509",
@@ -299,12 +299,12 @@
     "Joan of Arcadia (2003)": {
         "imdbID": "0367345",
         "isCutShort": "1",
-        "hasCliffhanger": 1
+        "hasCliffhanger": "1"
     },
     "The Society (2019)": {
         "imdbID": "8778064",
         "isCutShort": "1",
-        "hasCliffhanger": 1
+        "hasCliffhanger": "1"
     },
     "Freaks and Geeks (1999)": {
         "imdbID": "8778064",
@@ -319,17 +319,17 @@
     "Teenage Bounty Hunters (2020)": {
         "imdbID": "10584608",
         "isCutShort": "1",
-        "hasCliffhanger": 1
+        "hasCliffhanger": "1"
     },
     "GLOW (2017)": {
         "imdbID": "5770786",
         "isCutShort": "1",
-        "hasCliffhanger": 1
+        "hasCliffhanger": "1"
     },
     "The Secret Circle (2011)": {
         "imdbID": "1837654",
         "isCutShort": "1",
-        "hasCliffhanger": 1
+        "hasCliffhanger": "1"
     },
     "The Get Down (2016)": {
         "imdbID": "4592410",
@@ -364,7 +364,7 @@
     "Prodigal Son (2019)": {
         "imdbID": "10327354",
         "isCutShort": "1",
-        "hasCliffhanger": 1
+        "hasCliffhanger": "1"
     },
     "Zoey's Extraordinary Playlist (2020)": {
         "imdbID": "10314462",
@@ -389,32 +389,32 @@
     "The Whispers (2015)": {
         "imdbID": "3487410",
         "isCutShort": "1",
-        "hasCliffhanger": 1
+        "hasCliffhanger": "1"
     },
     "Sliders (1995)": {
         "imdbID": "0112167",
         "isCutShort": "1",
-        "hasCliffhanger": 1
+        "hasCliffhanger": "1"
     },
     "Las Vegas (2003)": {
         "imdbID": "0112167",
         "isCutShort": "1",
-        "hasCliffhanger": 1
+        "hasCliffhanger": "1"
     },
     "The Dead Zone (2002)": {
         "imdbID": "0281432",
         "isCutShort": "1",
-        "hasCliffhanger": 1
+        "hasCliffhanger": "1"
     },
     "Agent Carter (2015)": {
         "imdbID": "3475734",
         "isCutShort": "1",
-        "hasCliffhanger": 1
+        "hasCliffhanger": "1"
     },
     "Popular (1999)": {
         "imdbID": "0202748",
         "isCutShort": "1",
-        "hasCliffhanger": 1
+        "hasCliffhanger": "1"
     },
     "Clone High (2002)": {
         "imdbID": "0305011",
@@ -429,32 +429,32 @@
     "Terra Nova (2011)": {
         "imdbID": "1641349",
         "isCutShort": "1",
-        "hasCliffhanger": 1
+        "hasCliffhanger": "1"
     },
     "Friday the 13th: The Series (1987)": {
         "imdbID": "1641349",
         "isCutShort": "1",
-        "hasCliffhanger": 1
+        "hasCliffhanger": "1"
     },
     "Forever Knight (1992)": {
         "imdbID": "0103417",
         "isCutShort": "1",
-        "hasCliffhanger": 1
+        "hasCliffhanger": "1"
     },
     "VR.5 (1995)": {
         "imdbID": "0112209",
         "isCutShort": "1",
-        "hasCliffhanger": 1
+        "hasCliffhanger": "1"
     },
     "Space: Above and Beyond (1995)": {
         "imdbID": "0112173",
         "isCutShort": "1",
-        "hasCliffhanger": 1
+        "hasCliffhanger": "1"
     },
     "NewsRadio (1995)": {
         "imdbID": "0112095",
         "isCutShort": "1",
-        "hasCliffhanger": 1
+        "hasCliffhanger": "1"
     },
     "Dark Angel (2000)": {
         "imdbID": "0204993",
@@ -469,37 +469,37 @@
     "John Doe (2002)": {
         "imdbID": "0320038",
         "isCutShort": "1",
-        "hasCliffhanger": 1
+        "hasCliffhanger": "1"
     },
     "Carnivale (Carnivàle) (2003)": {
         "imdbID": "0319969",
         "isCutShort": "1",
-        "hasCliffhanger": 1
+        "hasCliffhanger": "1"
     },
     "Reunion (2005)": {
         "imdbID": "0460672",
         "isCutShort": "1",
-        "hasCliffhanger": 1
+        "hasCliffhanger": "1"
     },
     "Terriers (2010)": {
         "imdbID": "1493239",
         "isCutShort": "1",
-        "hasCliffhanger": 1
+        "hasCliffhanger": "1"
     },
     "The River (2012)": {
         "imdbID": "1836195",
         "isCutShort": "1",
-        "hasCliffhanger": 1
+        "hasCliffhanger": "1"
     },
     "Constantine (2014)": {
         "imdbID": "3489184",
         "isCutShort": "1",
-        "hasCliffhanger": 1
+        "hasCliffhanger": "1"
     },
     "Off the Map (2011)": {
         "imdbID": "1587694",
         "isCutShort": "1",
-        "hasCliffhanger": 1
+        "hasCliffhanger": "1"
     },
     "Sense8 (2015)": {
         "imdbID": "2431438",
@@ -515,22 +515,22 @@
     "Everything Sucks! (2018)": {
         "imdbID": "7078710",
         "isCutShort": "1",
-        "hasCliffhanger": 1
+        "hasCliffhanger": "1"
     },
     "Colony (2016)": {
         "imdbID": "4209256",
         "isCutShort": "1",
-        "hasCliffhanger": 1
+        "hasCliffhanger": "1"
     },
     "Better Off Ted (2009)": {
         "imdbID": "1235547",
         "isCutShort": "1",
-        "hasCliffhanger": 0
+        "hasCliffhanger": "0"
     },
     "The Punisher (2017)": {
         "imdbID": "5675620",
         "isCutShort": "1",
-        "hasCliffhanger": 1
+        "hasCliffhanger": "1"
     },
     "Westworld (2016)": {
         "imdbID": "0475784",
@@ -565,32 +565,32 @@
     "Exosquad (1993)": {
         "imdbID": "0106842",
         "isCutShort": "1",
-        "hasCliffhanger": 1
+        "hasCliffhanger": "1"
     },
     "Surface (2005)": {
         "imdbID": "0452718",
         "isCutShort": "1",
-        "hasCliffhanger": 1
+        "hasCliffhanger": "1"
     },
     "Stargate Universe (2009)": {
         "imdbID": "1286039",
         "isCutShort": "1",
-        "hasCliffhanger": 1
+        "hasCliffhanger": "1"
     },
     "1899 (2022)": {
         "imdbID": "9319668",
         "isCutShort": "1",
-        "hasCliffhanger": 1
+        "hasCliffhanger": "1"
     },
     "Humans (2015)": {
         "imdbID": "4122068",
         "isCutShort": "1",
-        "hasCliffhanger": 1
+        "hasCliffhanger": "1"
     },
     "Utopia (2013)": {
         "imdbID": "2384811",
         "isCutShort": "1",
-        "hasCliffhanger": 1
+        "hasCliffhanger": "1"
     },
     "Timeless (2016)": {
         "imdbID": "2384811",
@@ -615,22 +615,22 @@
     "Merlin (2008)": {
         "imdbID": "1199099",
         "isCutShort": "0",
-        "hasCliffhanger": 1
+        "hasCliffhanger": "1"
     },
     "Carnival Row (2019)": {
         "imdbID": "0489974",
         "isCutShort": "1",
-        "hasCliffhanger": 0
+        "hasCliffhanger": "0"
     },
     "Avenue 5 (2020)": {
         "imdbID": "10234362",
         "isCutShort": "1",
-        "hasCliffhanger": 1
+        "hasCliffhanger": "1"
     },
     "ReBoot: The Guardian Code (2018)": {
         "imdbID": "6849940",
         "isCutShort": "1",
-        "hasCliffhanger": 1
+        "hasCliffhanger": "1"
     },
     "Ray Donovan (2013)": {
         "imdbID": "2249007",
@@ -645,47 +645,47 @@
     "Santa Clarita Diet (2017)": {
         "imdbID": "5580540",
         "isCutShort": "1",
-        "hasCliffhanger": 1
+        "hasCliffhanger": "1"
     },
     "Counterpart (2017)": {
         "imdbID": "4643084",
         "isCutShort": "1",
-        "hasCliffhanger": 0
+        "hasCliffhanger": "0"
     },
     "Mindhunter (2017)": {
         "imdbID": "5290382",
         "isCutShort": "1",
-        "hasCliffhanger": 0
+        "hasCliffhanger": "0"
     },
     "Devious Maids (2013)": {
         "imdbID": "2226342",
         "isCutShort": "1",
-        "hasCliffhanger": 1
+        "hasCliffhanger": "1"
     },
     "Dollhouse (2009)": {
         "imdbID": "1135300",
         "isCutShort": "1",
-        "hasCliffhanger": 0
+        "hasCliffhanger": "0"
     },
     "Raised by Wolves (2020)": {
         "imdbID": "9170108",
         "isCutShort": "1",
-        "hasCliffhanger": 1
+        "hasCliffhanger": "1"
     },
     "Paper Girls (2022)": {
         "imdbID": "10623646",
         "isCutShort": "1",
-        "hasCliffhanger": 1
+        "hasCliffhanger": "1"
     },
     "Lilyhammer (2012)": {
         "imdbID": "1958961",
         "isCutShort": "1",
-        "hasCliffhanger": 1
+        "hasCliffhanger": "1"
     },
     "Rubicon (2010)": {
         "imdbID": "1389371",
         "isCutShort": "1",
-        "hasCliffhanger": 1
+        "hasCliffhanger": "1"
     },
     "Prison Break (2005)": {
         "imdbID": "0455275",
@@ -700,47 +700,47 @@
     "Origin (2018)": {
         "imdbID": "7801780",
         "isCutShort": "1",
-        "hasCliffhanger": 1
+        "hasCliffhanger": "1"
     },
     "The O.C. (2003)": {
         "imdbID": "0362359",
         "isCutShort": "1",
-        "hasCliffhanger": 0
+        "hasCliffhanger": "0"
     },
     "Nurse Jackie (2009)": {
         "imdbID": "1190689",
         "isCutShort": "0",
-        "hasCliffhanger": 1
+        "hasCliffhanger": "1"
     },
     "Living with Yourself (2019)": {
         "imdbID": "8880894",
         "isCutShort": "0",
-        "hasCliffhanger": 1
+        "hasCliffhanger": "1"
     },
     "Harry's Law (2011)": {
         "imdbID": "1582453",
         "isCutShort": "1",
-        "hasCliffhanger": 0
+        "hasCliffhanger": "0"
     },
     "Knight Rider (1982)": {
         "imdbID": "0083437",
         "isCutShort": "1",
-        "hasCliffhanger": 0
+        "hasCliffhanger": "0"
     },
     "Star Trek: Enterprise (2001)": {
         "imdbID": "0244365",
         "isCutShort": "1",
-        "hasCliffhanger": 0
+        "hasCliffhanger": "0"
     },
     "Archive 81 (2022)": {
         "imdbID": "13365348",
         "isCutShort": "1",
-        "hasCliffhanger": 1
+        "hasCliffhanger": "1"
     },
     "Almost Human (2013)": {
         "imdbID": "2654580",
         "isCutShort": "1",
-        "hasCliffhanger": 0
+        "hasCliffhanger": "0"
     },
     "Final Space (2018)": {
         "imdbID": "2654580",
@@ -755,17 +755,17 @@
     "The Booth at the End (2011)": {
         "imdbID": "1554369",
         "isCutShort": "1",
-        "hasCliffhanger": 1
+        "hasCliffhanger": "1"
     },
     "Dead End: Paranormal Park (2022)": {
         "imdbID": "12642764",
         "isCutShort": "1",
-        "hasCliffhanger": 1
+        "hasCliffhanger": "1"
     },
     "Jessica Jones (2015)": {
         "imdbID": "2357547",
         "isCutShort": "1",
-        "hasCliffhanger": 0
+        "hasCliffhanger": "0"
     },
     "Daredevil (2015)": {
         "imdbID": "3322312",
@@ -790,72 +790,72 @@
     "A.P. Bio (2018)": {
         "imdbID": "6461726",
         "isCutShort": "1",
-        "hasCliffhanger": 0
+        "hasCliffhanger": "0"
     },
     "Abby's (2019)": {
         "imdbID": "7768346",
         "isCutShort": "1",
-        "hasCliffhanger": -1
+        "hasCliffhanger": "-1"
     },
     "Shadowhunters: The Mortal Instruments (2016)": {
         "imdbID": "4145054",
         "isCutShort": "1",
-        "hasCliffhanger": 0
+        "hasCliffhanger": "0"
     },
     "Quantico (2015)": {
         "imdbID": "4428122",
         "isCutShort": "1",
-        "hasCliffhanger": 0
+        "hasCliffhanger": "0"
     },
     "The Shannara Chronicles (2016)": {
         "imdbID": "1051220",
         "isCutShort": "1",
-        "hasCliffhanger": 1
+        "hasCliffhanger": "1"
     },
     "The Tomorrow People (2013)": {
         "imdbID": "2660734",
         "isCutShort": "1",
-        "hasCliffhanger": 1
+        "hasCliffhanger": "1"
     },
     "Limitless (2015)": {
         "imdbID": "4422836",
         "isCutShort": "1",
-        "hasCliffhanger": 0
+        "hasCliffhanger": "0"
     },
     "The Finder (2012)": {
         "imdbID": "1943524",
         "isCutShort": "1",
-        "hasCliffhanger": 0
+        "hasCliffhanger": "0"
     },
     "Deadbeat (2014)": {
         "imdbID": "3147316",
         "isCutShort": "1",
-        "hasCliffhanger": -1
+        "hasCliffhanger": "-1"
     },
     "Z Nation (2014)": {
         "imdbID": "3843168",
         "isCutShort": "1",
-        "hasCliffhanger": 0
+        "hasCliffhanger": "0"
     },
     "The Order (2019)": {
         "imdbID": "8295472",
         "isCutShort": "1",
-        "hasCliffhanger": 1
+        "hasCliffhanger": "1"
     },
     "Warrior Nun (2020)": {
         "imdbID": "9059350",
         "isCutShort": "1",
-        "hasCliffhanger": 0
+        "hasCliffhanger": "0"
     },
     "Dirk Gently's Holistic Detective Agency (2016)": {
         "imdbID": "4047038",
         "isCutShort": "1",
-        "hasCliffhanger": 0
+        "hasCliffhanger": "0"
     },
     "Happy (2017)": {
         "imdbID": "2452242",
         "isCutShort": "1",
-        "hasCliffhanger": 0
+        "hasCliffhanger": "0"
     },
     "Midnight Club (2022)": {
         "imdbID": "13444912",
@@ -870,12 +870,12 @@
     "American Vandal (2017)": {
         "imdbID": "6877772",
         "isCutShort": "1",
-        "hasCliffhanger": 0
+        "hasCliffhanger": "0"
     },
     "Brand New Cherry Flavor (2021)": {
         "imdbID": "11343600",
         "isCutShort": "0",
-        "hasCliffhanger": 1
+        "hasCliffhanger": "1"
     },
     "61st Street (2022)": {
         "imdbID": "9810248",
