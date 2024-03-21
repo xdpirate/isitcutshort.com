@@ -3,6 +3,8 @@
 
 It shut down on April 7th, 2024 due to lack of interest and rising costs of webhosting. The repository and database will stay online for posterity and in case someone else wants to use the data. Remember to adhere to the GPL if you do - attribution and sharing under the same license is required. Thanks for all contributions.
 
+Most of the text below is thus moot, but also preserved for posterity.
+
 ## Contributing
 ### How to contribute
 Feel free to contribute shows! You can:
