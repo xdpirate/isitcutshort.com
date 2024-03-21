@@ -1,5 +1,7 @@
 # Is it cut short?
-[Is it cut short?](https://www.isitcutshort.com/) (IsItCutShort.com / IICS) is a website that tracks TV shows that were cut short (ended prematurely or cancelled), and/or ends on a cliffhanger ending.
+[Is it cut short?](https://www.isitcutshort.com/) (IsItCutShort.com / IICS) was a website that tracked TV shows that were cut short (ended prematurely or cancelled), and/or ends on a cliffhanger ending.
+
+It shut down on April 7th, 2024 due to lack of interest and rising costs of webhosting. The repository and database will stay online for posterity and in case someone else wants to use the data. Remember to adhere to the GPL if you do - attribution and sharing under the same license is required. Thanks for all contributions.
 
 ## Contributing
 ### How to contribute
